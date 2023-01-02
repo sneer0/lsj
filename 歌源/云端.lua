@@ -1,4 +1,6 @@
-items={}--【云端歌源】
+--【云端歌源♥♥♥】
+
+items={}
 table.insert(items,"智能线路●")
 table.insert(items,"听歌线路❶")
 table.insert(items,"听歌线路❷")
