@@ -1,3 +1,9 @@
+--【启动运行】
+
+
+
+
+
 --打开侧边栏❶❶❶
 task(800,function()--延迟0.8秒运行代码
   drawerLayout.openDrawer(3)
@@ -6,7 +12,12 @@ end)--打开侧边栏结束❶❶❶]]
 
 
 
+
 --1800000【30分钟】，换算公式=30分钟× 60秒×1000毫秒
+
+
+
+
 
 --[[弹出广告❷❷❷
 task(1200000,function()--延迟运行20分钟开始
@@ -15,6 +26,7 @@ task(1200000,function()--延迟运行20分钟开始
   local txt="1dggw"--听歌1小时弹出广告
   io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
 end)--延迟运行结束❷❷❷]]
+
 
 
 
@@ -44,6 +56,8 @@ gg=
   },
 };
 toolbar.parent.addView(loadlayout(gg))--结束♥♥♥]]
+
+
 
 
 
