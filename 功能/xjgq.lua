@@ -40,7 +40,7 @@ jdpuk={
       --[[搜索按钮♦♦♦
       {
         ImageView;--图片控件
-        src='https://sneer0.github.io/ycdm/公用/ss.png';--图片路径
+        src='https://sneer0.github.io/lsj/图标/ss.png';--图片路径
         layout_width='25dp';--宽度
         layout_height='25dp';--高度
         scaleType='fitXY';--图片显示类型
