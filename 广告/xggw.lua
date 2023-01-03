@@ -338,21 +338,15 @@ xx=
     进入子页面("羊毛")
   end--❸❸❸❸❸结束
 
---[[
-  tp4.onClick=function()--❹❹❹❹❹开始
-    huad.showPage(3)--滑动图片
-    进入子页面("调用",{链接="data:text/txt,xxzq"})
-  end--❹❹❹❹❹结束]]
-
-  tp5.onClick=function()--❻❺❺❺❺开始
+  tp4.onClick=function()--❻❺❺❺❺开始
     huad.showPage(3)--滑动图片
     进入子页面("调用",{标题="领红包支持APP作者",链接="https://support.qq.com/products/292760/blog/514146"})
-  end--❻❺❺❺❺结束
+  end--结束
 
-  tp6.onClick=function()--❻❻❻❻❻开始
+  tp5.onClick=function()--❻❻❻❻❻开始
     huad.showPage(4)--滑动图片
     进入子页面("浏览器",{标题="最新版本APP【请更新】",链接="https://sneer.lanzoui.com/b06s2z42d"})
-  end--❻❻❻❻❻结束
+  end--结束
 
   --设置图片停留时间
   local n=0 
