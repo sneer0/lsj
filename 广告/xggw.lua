@@ -137,7 +137,7 @@ xx=
                   },
                 },
               },
-              --❹❹❹❹❹ 
+              --[[❹❹❹❹❹ 
               {
                 LinearLayout,
                 orientation='vertical',--重力属性
@@ -172,15 +172,15 @@ xx=
                     layout_gravity='bottom',--高度重力
                   },
                 },
-              },
-              --❺❺❺❺❺ 
+              },--]]
+              --❺❺❺❺❺
               {
                 LinearLayout,
                 orientation='vertical',--重力属性
                 layout_width='fill',--布局宽度
                 layout_height='fill',--布局高度
                 gravity='center',--宽度重力
-                id='tp5',--自动滑动
+                id='tp4',--自动滑动
                 {
                   CardView,--卡片控件
                   layout_width='fill',--卡片宽度
@@ -216,7 +216,7 @@ xx=
                 layout_width='fill',--布局宽度
                 layout_height='fill',--布局高度
                 gravity='center',--宽度重力
-                id='tp6',--自动滑动
+                id='tp5',--自动滑动
                 {
                   CardView,--卡片控件
                   layout_width='fill',--卡片宽度
@@ -338,18 +338,19 @@ xx=
     进入子页面("羊毛")
   end--❸❸❸❸❸结束
 
+--[[
   tp4.onClick=function()--❹❹❹❹❹开始
     huad.showPage(3)--滑动图片
     进入子页面("调用",{链接="data:text/txt,xxzq"})
-  end--❹❹❹❹❹结束
+  end--❹❹❹❹❹结束]]
 
   tp5.onClick=function()--❻❺❺❺❺开始
-    huad.showPage(4)--滑动图片
+    huad.showPage(3)--滑动图片
     进入子页面("调用",{标题="领红包支持APP作者",链接="https://support.qq.com/products/292760/blog/514146"})
   end--❻❺❺❺❺结束
 
   tp6.onClick=function()--❻❻❻❻❻开始
-    huad.showPage(5)--滑动图片
+    huad.showPage(4)--滑动图片
     进入子页面("浏览器",{标题="最新版本APP【请更新】",链接="https://sneer.lanzoui.com/b06s2z42d"})
   end--❻❻❻❻❻结束
 
@@ -357,7 +358,7 @@ xx=
   local n=0 
   function jiant()--监听
     task(3500,function()--3.5秒滑动一次
-      n=n+1 huad.showPage(n%6)--6张图片
+      n=n+1 huad.showPage(n%5)--5张图片●●●
       jiant()
     end)
   end 
