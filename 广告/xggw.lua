@@ -29,14 +29,14 @@ xx=
             layout_weight='1',
             id='huad',
             pages={
-              --❶❶❶❶❶
+              --【1】
               {
                 LinearLayout,
                 orientation='vertical',--重力属性
                 layout_width='fill',--布局宽度
                 layout_height='fill',--布局高度
                 gravity='center',--宽度重力
-                id='tp1',--自动滑动
+                id='tp1',--自动滑动★★
                 {
                   CardView,--卡片控件
                   layout_width='fill',--卡片宽度
@@ -65,14 +65,14 @@ xx=
                   },
                 },
               },
-              --❷❷❷❷❷ 
+              --【2】
               {
                 LinearLayout,
                 orientation='vertical',--重力属性
                 layout_width='fill',--布局宽度
                 layout_height='fill',--布局高度
                 gravity='center',--宽度重力
-                id='tp2',--自动滑动
+                id='tp2',--自动滑动★★
                 {
                   CardView,--卡片控件
                   layout_width='fill',--卡片宽度
@@ -101,14 +101,14 @@ xx=
                   },
                 },
               },
-              --❸❸❸❸❸ 
+              --【3】
               {
                 LinearLayout,
                 orientation='vertical',--重力属性
                 layout_width='fill',--布局宽度
                 layout_height='fill',--布局高度
                 gravity='center',--宽度重力
-                id='tp3',--自动滑动
+                id='tp3',--自动滑动★★
                 {
                   CardView,--卡片控件
                   layout_width='fill',--卡片宽度
@@ -137,50 +137,14 @@ xx=
                   },
                 },
               },
-              --[[❹❹❹❹❹ 
+              --【4】
               {
                 LinearLayout,
                 orientation='vertical',--重力属性
                 layout_width='fill',--布局宽度
                 layout_height='fill',--布局高度
                 gravity='center',--宽度重力
-                id='tp4',--自动滑动
-                {
-                  CardView,--卡片控件
-                  layout_width='fill',--卡片宽度
-                  layout_height='122dp',--卡片高度❹
-                  CardBackgroundColor='#FFFFFF',--卡片背景颜色
-                  layout_margin='14dp',--卡片边距
-                  elevation='2dp',--阴影属性
-                  radius='10dp',--卡片圆角
-                  {
-                    ImageView,--图片控件
-                    layout_width='fill',--图片宽度
-                    layout_height='122dp',--图片高度❹
-                    scaleType='fitXY',--图片显示类型
-                    background='https://txc.gtimg.com/data/292760/2021/1015/bd685b06dc17d62aac07fa5c2823568a.png',--背景颜色(图片路径)
-                  },
-                  {
-                    TextView,
-                    layout_width='match_parent',--本文宽度
-                    layout_height='30dp',--本文高度
-                    text='阅读游戏音乐视频，给你绝佳的视听体验~',--本文文字❹
-                    textSize='15sp',--本文大小
-                    textColor='#FFFFFFFF',--本文颜色
-                    background='#44000000',--本文背景
-                    gravity='center',--宽度重力
-                    layout_gravity='bottom',--高度重力
-                  },
-                },
-              },--]]
-              --❺❺❺❺❺
-              {
-                LinearLayout,
-                orientation='vertical',--重力属性
-                layout_width='fill',--布局宽度
-                layout_height='fill',--布局高度
-                gravity='center',--宽度重力
-                id='tp4',--自动滑动
+                id='tp4',--自动滑动★★
                 {
                   CardView,--卡片控件
                   layout_width='fill',--卡片宽度
@@ -209,14 +173,14 @@ xx=
                   },
                 },
               },
-              --❻❻❻❻❻ 
+              --【5】
               {
                 LinearLayout,
                 orientation='vertical',--重力属性
                 layout_width='fill',--布局宽度
                 layout_height='fill',--布局高度
                 gravity='center',--宽度重力
-                id='tp5',--自动滑动
+                id='tp5',--自动滑动★★
                 {
                   CardView,--卡片控件
                   layout_width='fill',--卡片宽度
@@ -244,9 +208,7 @@ xx=
                     layout_gravity='bottom',--高度重力
                   },
                 },
-              },
-              
-            --结束♥♥♥♥♥♥♥♥♥♥♥♥
+              },--结束♥♥♥♥♥♥
 
             },
           },
@@ -258,8 +220,8 @@ xx=
   webView.addView(loadlayout(xx))--网络幽灵
 
   --自动滑动图片
-  tp1.onClick=function()--❶❶❶❶❶开始
-    huad.showPage(0)--滑动图片
+  tp1.onClick=function()--开始★★
+    huad.showPage(0)--滑动图片★★
     items={}--复选框
     table.insert(items,"公众号")
     table.insert(items,"微博号")
@@ -270,8 +232,7 @@ xx=
     .setItems(items,{onClick=function(l,v) 
 
         if items[v+1]=="公众号" then
-          items={}
-          --显示内容
+          items={}--框中框开始
           table.insert(items,"搜索关注(备用)")
           table.insert(items,"扫码关注(推荐)")
 
@@ -323,28 +284,27 @@ xx=
         end
 
       end})
-    .show()
-    --结束
-  end--❶❶❶❶❶结束
+    .show()--复选框结束
+  end--结束
 
-  tp2.onClick=function()--❷❷❷❷❷开始
-    huad.showPage(1)--滑动图片
+  tp2.onClick=function()--开始★★
+    huad.showPage(1)--滑动图片★★
     进入子页面("社区",{标题="APP使用帮助",链接="https://support.qq.com/embed/phone/374133/faqs-more/"})
     弹出消息("若加载较慢 可点击左上角按钮刷新")
-  end--❷❷❷❷❷结束
+  end--结束
 
-  tp3.onClick=function()--❸❸❸❸❸开始
-    huad.showPage(2)--滑动图片
+  tp3.onClick=function()--开始★★
+    huad.showPage(2)--滑动图片★★
     进入子页面("羊毛")
-  end--❸❸❸❸❸结束
+  end--结束
 
-  tp4.onClick=function()--❻❺❺❺❺开始
-    huad.showPage(3)--滑动图片
+  tp4.onClick=function()--开始★★
+    huad.showPage(3)--滑动图片★★
     进入子页面("调用",{标题="领红包支持APP作者",链接="https://support.qq.com/products/292760/blog/514146"})
   end--结束
 
-  tp5.onClick=function()--❻❻❻❻❻开始
-    huad.showPage(4)--滑动图片
+  tp5.onClick=function()--开始★★
+    huad.showPage(4)--滑动图片★★
     进入子页面("浏览器",{标题="最新版本APP【请更新】",链接="https://sneer.lanzoui.com/b06s2z42d"})
   end--结束
 
