@@ -232,42 +232,74 @@ xx=
     .setItems(items,{onClick=function(l,v) 
 
         if items[v+1]=="公众号" then
-          items={}--框中框开始
-          table.insert(items,"搜索关注(备用)")
-          table.insert(items,"扫码关注(推荐)")
+items={}--关注公众号开始●●●
+  table.insert(items,"搜索关注(备用)")
+  table.insert(items,"扫码关注(推荐)")
+  
+  function wxsm()--【微信扫码♥ 
+    if pcall(function() activity.getPackageManager().getPackageInfo("com.tencent.mm",0) end) then
+      intent = Intent();
+      intent.setComponent( ComponentName("com.tencent.mm", "com.tencent.mm.ui.LauncherUI"));
+      intent.putExtra("LauncherUI.From.Scaner.Shortcut", true);
+      intent.setFlags(335544320);
+      intent.setAction("android.intent.action.VIEW");
+      activity.startActivity(intent);
+    else
+      print("你居然没有安装微信 Σ(ŎдŎ|||)ﾉﾉ")
+    end
+  end--微信扫码♥】
 
-          AlertDialog.Builder(this)
-          --.setTitle("关注公众号")--标题♥
-          .setItems(items,{onClick=function(l,v) 
+  function dkwx()--【打开微信♥ 
+    packageName="com.tencent.mm"
+    import "android.content.Intent"
+    import "android.content.pm.PackageManager"
+    manager = activity.getPackageManager()
+    open = manager.getLaunchIntentForPackage(packageName)
+    this.startActivity(open)
+  end--打开微信♥】
 
-              if items[v+1]=="搜索关注(备用)" then
-                复制文本("轻佻")
-                弹出消息("公众号名称已复制  请直接到微信粘贴搜索")
-                packageName="com.tencent.mm"
-                import "android.content.Intent"
-                import "android.content.pm.PackageManager"
-                manager = activity.getPackageManager()
-                open = manager.getLaunchIntentForPackage(packageName)
-                this.startActivity(open)
-              end
-
-              if items[v+1]=="扫码关注(推荐)" then
-                下载文件("https://txc.gtimg.com/data/292760/2021/1020/09a64a61736aab7c0e19e15d9d455c29.jpeg")
-                弹出消息("公众号二维码已保存 请扫码关注")
-                if pcall(function() activity.getPackageManager().getPackageInfo("com.tencent.mm",0) end) then
-                  intent = Intent();
-                  intent.setComponent( ComponentName("com.tencent.mm", "com.tencent.mm.ui.LauncherUI"));
-                  intent.putExtra("LauncherUI.From.Scaner.Shortcut", true);
-                  intent.setFlags(335544320);
-                  intent.setAction("android.intent.action.VIEW");
-                  activity.startActivity(intent);
-                else
-                  print("你居然没有安装微信 Σ(ŎдŎ|||)ﾉﾉ")
-                end
-              end
-
-            end})
-          .show()--框中框结束
+  AlertDialog.Builder(this)
+  --.setTitle("关注公众号")
+  .setItems(items,{onClick=function(l,v) 
+      if items[v+1]=="搜索关注(备用)" then
+        复制文本("轻佻")
+        弹出消息("公众号名称已复制  请直接到微信粘贴搜索")
+        dkwx()--打开微信
+      end
+      if items[v+1]=="扫码关注(推荐)" then
+        AboutLayout={--图片对话框开始●
+          LinearLayout;
+          orientation="vertical";
+          Focusable=true,
+          FocusableInTouchMode=true,
+          {
+            ImageView;
+            src="drawable/gzh.png";
+            layout_height="800";--高度
+            layout_marginTop="20";--顶距
+            layout_width="800";--宽度
+            layout_gravity="center_horizontal";--重力"中心_水平的"
+            id="touxiang"
+          };
+        };
+        AlertDialog.Builder(this)
+        .setTitle("截图后打开微信扫码 关注公众号")--标题
+        --.setMessage("无")--消息
+        .setView(loadlayout(AboutLayout))
+        .setPositiveButton("打开微信扫码",{onClick=function(v)
+            wxsm()--微信扫码
+          end}) 
+        .setNeutralButton("保存二维码",{onClick=function(v)
+            下载文件("https://txc.gtimg.com/data/292760/2021/1020/09a64a61736aab7c0e19e15d9d455c29.jpeg")
+            task(500,function()--延迟0.5秒运行
+              弹出消息("公众号二维码已保存 请微信扫码关注")
+              wxsm()--微信扫码
+            end)--延迟结束
+          end})
+        .show()--图片对话框结束●
+      end
+    end})
+  .show()--关注公众号结束●●●
         end
 
         if items[v+1]=="微博号" then
