@@ -79,8 +79,10 @@ function() { //添加监听，为了自适应
   <p style="text-indent:2em"> </p > <!--正文-->
   <img src=""alt=""> <!--图片-->
 
-<!--樱花飘落-->
+<!--艺术油漆-->
 <script>
-function loadJs(path,callback){var header=document.getElementsByTagName("head")[0];var script=document.createElement('script');script.setAttribute('src',path);header.appendChild(script);if(!/*@cc_on!@*/false){script.onload=function(){callback();}}else{script.onreadystatechange=function(){if(script.readystate=="loaded" ||script.readState=='complate'){callback();}}}}
-        loadJs("https://yyyp.oss-cn-beijing.aliyuncs.com/CDN/FallingFx/yinghua/yinghua.min.js",function(){yinghua(100,1.5)});
+        var hm = document.createElement("script");
+        hm.src = "https://yyyp.oss-cn-beijing.aliyuncs.com/CDN/BG/PaintStyleBg/PaintStyleBg.min.js";
+        var s = document.getElementsByTagName("title")[0]; 
+        s.parentNode.insertBefore(hm, s);
 </script>
