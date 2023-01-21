@@ -8,7 +8,6 @@ table.insert(items,"豆瓣搜索")
 table.insert(items,"菜谱搜索")
 table.insert(items,"政务搜索")
 table.insert(items,"药监搜索")
-table.insert(items,"抖音搜索")--待删
 AlertDialog.Builder(this)
 --.setTitle("其他搜索")--标题♥
 .setItems(items,{onClick=function(l,v) 
