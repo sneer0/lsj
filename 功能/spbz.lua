@@ -41,8 +41,8 @@ jdpuk={
       {
         ImageView;--图片控件
         src='https://sneer0.github.io/lsj/图标/ss.png';--图片路径
-        layout_width='25dp';--宽度
-        layout_height='25dp';--高度
+        layout_width='23dp';--宽度
+        layout_height='23dp';--高度
         scaleType='fitXY';--图片显示类型
         layout_gravity='right|center';--重力
         ColorFilter='0xffffffff';--图片着色
@@ -85,7 +85,7 @@ jdpuk={
               ListView,
               id="list",
               layout_width="fill",
-              layout_height="400dp",--♦♦♦显示所有按钮的框的长度
+              layout_height="440dp",--♦♦♦显示所有按钮的框的长度
               dividerHeight="0dp",--项目间的横线
             },
           },
@@ -108,37 +108,42 @@ activity.setContentView(loadlayout(jdpuk))
 adpd={
   {
     text={
-      text="李志壁纸❶",--❶❶❶
+      text="1.李志壁纸¹",--●11111
     },
   },
   {
     text={
-      text="李志壁纸❷",--❷❷❷
+      text="2.李志壁纸²",--●22222
     },
   },
   {
     text={
-      text="李志视频❶",--❸❸❸
+      text="3.李志视频¹",--●33333
     },
   },
   {
     text={
-      text="李志视频❷",--❹❹❹
-    },
-  },
-    {
-    text={
-      text="李志视频❸",--❹❹❹
+      text="4.李志视频²",--●44444
     },
   },
   {
     text={
-      text="摇滚壁纸★",--❺❺❺
+      text="5.李志视频³",--●55555
     },
   },
   {
     text={
-      text="歌词壁纸★",--❻❻❻
+      text="6.摇滚壁纸",--●66666
+    },
+  },
+  {
+    text={
+      text="7.歌词壁纸",--●77777
+    },
+  },
+  {
+    text={
+      text="8.专辑封面",--●88888
     },
   },
 
@@ -176,45 +181,50 @@ adapter=LuaAdapter(this,adpd,items)
 list.Adapter=adapter
 list.onItemClick=function(adp,view,pos,id)
   ({
-    function()--壁纸111
-      local txt="1xfan"--悬浮按钮♥♥♥
+    function()--●11111
+      local txt="1xfan"--悬浮按钮♥
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
       进入子页面("横竖屏",{标题="李志壁纸1",链接="https://m.baidu.com/sf/vsearch?pd=image_content&from=2001a&atn=page&fr=tab&tn=vsearch&ss=110&sa=tb&rsv_sug4=3585&inputT=1886&word=李志写真"})
-    end,--结束111
+    end,--●11111
 
-    function()--壁纸222
-      local txt="1xfan"--悬浮按钮♥♥♥
+    function()--●22222
+      local txt="1xfan"--悬浮按钮♥
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
       进入子页面("横竖屏",{标题="李志壁纸2",链接="https://cn.bing.com/images/search?q=李志&FORM=HDRSC2"})
-    end,--结束222
+    end,--●22222
 
-    function()--视频111
-      local txt="1xfan"--悬浮按钮♥♥♥
+    function()--●33333
+      local txt="1xfan"--悬浮按钮♥
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
       进入子页面("横竖屏",{标题="李志视频1",链接="http://live.334.kim"}) 
-        --https://www.perry.ren/tag/李志
-    end,--结束111
+      --https://www.perry.ren/tag/李志
+    end,--●33333
 
-    function()--视频222
-      local txt="1xfan"--悬浮按钮♥♥♥
+    function()--●44444
+      local txt="1xfan"--悬浮按钮♥
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
       进入子页面("横竖屏",{标题="李志视频2",链接="https://www.lizhi334.com/video"}) 
-    end,--结束222
+    end,--●44444
 
-    function()--视频333
-      local txt="1xfan"--悬浮按钮♥♥♥
+    function()--●55555
+      local txt="1xfan"--悬浮按钮♥
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
       进入子页面("横竖屏",{标题="李志视频3",链接="https://m.baidu.com/sf/vsearch?pd=video&word=李志&tn=vsearch&sa=vs_tab&lid=11830035256991840593&ms=1&from=1022560v&atn=index"}) 
-    end,--结束333
+    end,--●55555
 
-    function()--摇滚111
+    function()--●66666
       进入子页面("调用",{标题="摇滚壁纸",链接="https://www.yuque.com/njlz/bz"})
       弹出消息("正在加载中...")
-    end,--结束111
-    
-    function()--卡片111
+    end,--●66666
+
+    function()--●77777
       进入子页面("调用",{标题="歌词卡片（刷新换词）",链接="https://neneko.cn/NanjingLizhiBot/PLUS"})
-    end,--结束111
+    end,--●77777
+
+    function()--●88888
+      进入子页面("浏览器",{标题="专辑封面下载",链接="https://sneer.lanzoui.com/tp/iiFr80cla6di"})
+    end,--●88888
+
 
   })[id]()
 end
