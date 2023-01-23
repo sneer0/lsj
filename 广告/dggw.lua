@@ -180,7 +180,7 @@ end--结束
 local n=0 
 function djt()--监听
   task(2500,function()--几秒滑动1次◆
-    n=n+1 dggw.showPage(n%3)--滑动3次◆
+    n=n+1 dggw.showPage(n%3)--3张图片◆
     djt()
   end)
 end 
