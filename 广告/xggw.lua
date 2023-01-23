@@ -27,7 +27,7 @@ xx=
             layout_width='fill',--布局宽度
             layout_height='123dp',--布局高度
             layout_weight='1',
-            id='huad',
+            id='xggw',--小广告位布局id
             pages={
               --【1】
               {
@@ -221,7 +221,7 @@ xx=
 
   --自动滑动图片
   tp1.onClick=function()--开始★★
-    huad.showPage(0)--滑动图片★★
+    xggw.showPage(0)--滑动图片★★
     items={}--复选框
     table.insert(items,"公众号")
     table.insert(items,"微博号")
@@ -320,34 +320,32 @@ items={}--关注公众号开始●●●
   end--结束
 
   tp2.onClick=function()--开始★★
-    huad.showPage(1)--滑动图片★★
+    xggw.showPage(1)--滑动图片★★
     进入子页面("社区",{标题="APP使用帮助",链接="https://support.qq.com/embed/phone/374133/faqs-more/"})
     弹出消息("若加载较慢 可点击左上角按钮刷新")
   end--结束
 
   tp3.onClick=function()--开始★★
-    huad.showPage(2)--滑动图片★★
+    xggw.showPage(2)--滑动图片★★
     进入子页面("羊毛")
   end--结束
 
   tp4.onClick=function()--开始★★
-    huad.showPage(3)--滑动图片★★
+    xggw.showPage(3)--滑动图片★★
     进入子页面("调用",{标题="领红包支持APP作者",链接="https://support.qq.com/products/292760/blog/514146"})
   end--结束
 
   tp5.onClick=function()--开始★★
-    huad.showPage(4)--滑动图片★★
+    xggw.showPage(4)--滑动图片★★
     进入子页面("浏览器",{标题="最新版本APP【请更新】",链接="https://sneer.lanzoui.com/b06s2z42d"})
   end--结束
 
   --设置图片停留时间
   local n=0 
-  function jiant()--监听
+  function xggwjt()--小广告位监听
     task(3500,function()--3.5秒滑动一次
-      n=n+1 huad.showPage(n%5)--5张图片●●●
-      jiant()
+      n=n+1 xggw.showPage(n%5)--5张图片●●●
+      xggwjt()
     end)
   end 
-  jiant()
-  
---llq.loadUrl("https://support.qq.com/products/191061")--加载网页
+  xggwjt()
