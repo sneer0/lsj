@@ -315,7 +315,7 @@ tp1.onClick=function()--●1●
 end--结束
 tp2.onClick=function()--●2●
   xggw.showPage(1)--序号◆
-  进入子页面("社区",{标题="APP使用帮助",链接="https://support.qq.com/embed/phone/374133/faqs-more/"})
+  进入子页面("社区",{标题="APP新手帮助",链接="https://support.qq.com/embed/phone/374133/faqs-more/"})
   弹出消息("若加载较慢 可点击左上角按钮刷新")
 end--结束
 tp3.onClick=function()--●3●
@@ -328,7 +328,7 @@ tp4.onClick=function()--●4●
 end--结束
 tp5.onClick=function()--●5●
   xggw.showPage(4)--序号◆
-  进入子页面("浏览器",{标题="最新版本APP【请更新】",链接="https://sneer.lanzoui.com/b06s2z42d"})
+  进入子页面("浏览器",{标题="留声机【请更新】",链接="https://sneer.lanzoui.com/b06s2z42d"})
 end--结束
 
 
