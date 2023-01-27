@@ -436,7 +436,7 @@ list.onItemClick=function(adp,view,pos,id)
         .show()--投稿结束♥
       end)
       .设置消极按钮("求歌",function()
-        进入子页面("社区",{链接="https://txc.qq.com/embed/phone/191061/new-post?&topic_id=1696&topic_title=求资源"})
+        进入子页面("社区",{链接="https://txc.qq.com/embed/phone/191061/topic-detail/1696"})
       end)
       .设置中立按钮("取消",function()
       end)
