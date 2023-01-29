@@ -426,7 +426,7 @@ list.onItemClick=function(adp,view,pos,id)
         --.setTitle("无标题")
         .setItems(items,{onClick=function(l,v) 
             if items[v+1]=="求歌" then
-              进入子页面("社区",{链接="https://txc.qq.com/embed/phone/191061/topic-detail/1696"})
+              进入子页面("社区",{链接="https://txc.qq.com/embed/phone/191061/topic-detail/1696#label=newest"})
               --https://txc.qq.com/embed/phone/191061/new-post?&topic_id=1696&topic_title=求资源
             end 
             if items[v+1]=="投稿" then
