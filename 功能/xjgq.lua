@@ -37,19 +37,19 @@ jdpuk={
       titleText="下架歌曲",--♥♥♥
       returnButtonEnabled=true,
       elevation="-480dp",--未找到改变效果
-      --[[搜索按钮♦♦♦
+      --搜索按钮♦♦♦
       {
         ImageView;--图片控件
         src='https://sneer0.github.io/lsj/图标/ss.png';--图片路径
-        layout_width='25dp';--宽度
-        layout_height='25dp';--高度
+        layout_width='23dp';--宽度
+        layout_height='23dp';--高度
         scaleType='fitXY';--图片显示类型
         layout_gravity='right|center';--重力
         ColorFilter='0xffffffff';--图片着色
         layout_marginRight='5%w';--右距
         --style="?android:attr/buttonBarButtonStyle";--按钮特效
         id="ss",
-      };--搜索按钮♦♦♦]]
+      };--搜索按钮♦♦♦
     },
   },
   {
@@ -674,29 +674,8 @@ list.onItemClick=function(adp,view,pos,id)
   })[id]()
 end
 
---[[搜索按钮点击♦♦♦
+--搜索按钮点击♦♦♦
 ss.onClick=function()--点击事件
-  弹出消息("功能维护中...")
-  items={}--多选框开始♦
-  table.insert(items,"第三方搜索❶")
-  table.insert(items,"第三方搜索❷")
-  table.insert(items,"第三方搜索❸")
-  AlertDialog.Builder(this)
-  --.setTitle("空白标题")--标题♥
-  .setItems(items,{onClick=function(l,v) 
-      if items[v+1]=="第三方搜索❶" then
-        进入子页面("调用",{标题="Audiomack",链接="https://audiomack.com/search"})
-        弹出消息("此服务由第三方网站提供 请勿相信广告")
-      end
-      if items[v+1]=="第三方搜索❷" then
-        进入子页面("调用",{标题="lemuzika",链接="https://lemuzika.pro"})
-        弹出消息("此服务由第三方网站提供 请勿相信广告")
-      end
-      if items[v+1]=="第三方搜索❸" then
-        进入子页面("调用",{标题="free mp3",链接="https://myfreemp3juices.cc"})
-        弹出消息("此服务由第三方网站提供，该网站有时会自动跳转到垃圾广告页面，若遇到这种情况，点击返回即可。请勿相信广告，否则一切损失后果自负！")
-      end
-    end})
-  .show()--多选框结束♦
+进入子页面("调用",{标题="下架歌曲搜索",链接="https://sneer0.github.io/lsj/%E7%BD%91%E9%A1%B5/xjgq.html"})
 end
 --搜索按钮点击♦♦♦]]
