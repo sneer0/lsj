@@ -682,7 +682,9 @@ list.onItemClick=function(adp,view,pos,id)
     end,--结束●53●
 
     function()--●54●
-      进入子页面("调用",{标题="搜索李志歌曲",链接="data:text/txt,zjss"})
+      local txt="1zjxz"--专辑下载
+      io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
+      进入子页面("横竖屏")
     end,--结束●54●
 
     function()--●55●
