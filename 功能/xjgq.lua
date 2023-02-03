@@ -676,6 +676,6 @@ end
 
 --搜索按钮点击♦♦♦
 ss.onClick=function()--点击事件
-进入子页面("调用",{标题="搜索下架歌曲",链接="https://sneer0.github.io/lsj/%E7%BD%91%E9%A1%B5/xjgq.html"})
+进入子页面("调用",{标题="搜索下架歌曲",链接="https://sneer0.github.io/lsj/%E7%BD%91%E9%A1%B5/xjss"})
 end
 --搜索按钮点击♦♦♦]]
