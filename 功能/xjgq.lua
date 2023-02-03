@@ -377,6 +377,16 @@ adpd={
       text="53《熊熊作业》",--●53●
     },
   },
+  {
+    text={
+      text="54《李志》",--●54●
+    },
+  },
+  {
+    text={
+      text="55《水仙斗活佛》",--●55●
+    },
+  },
 
 }
 
@@ -671,12 +681,20 @@ list.onItemClick=function(adp,view,pos,id)
       进入子页面("调用",{标题="53《熊熊作业》",链接="https://lanzoui.com/b06ugj9hi"})
     end,--结束●53●
 
+    function()--●54●
+      进入子页面("调用",{标题="搜索李志歌曲",链接="data:text/txt,zjss"})
+    end,--结束●54●
+
+    function()--●55●
+      进入子页面("调用",{标题="55《水仙斗活佛》",链接="https://lanzoui.com/b06ugoyja"})
+    end,--结束●55●
+
   })[id]()
 end
 
 --搜索按钮点击♦♦♦
 ss.onClick=function()--点击事件
-进入子页面("调用",{标题="搜索下架歌曲",链接="data:text/txt,xjss"})
-弹出消息("点击右下角🔍按钮搜索")
+  进入子页面("调用",{标题="搜索下架歌曲",链接="data:text/txt,xjss"})
+  弹出消息("点击右下角🔍按钮搜索")
 end
 --搜索按钮点击♦♦♦]]
