@@ -368,8 +368,8 @@ ksss.onClick=function()
   yuxuandh4.setAnimationListener(AnimationListener{
     onAnimationEnd=function()
       pop.dismiss()
-      local txt="1dnms"
-      io.open("/storage/emulated/0/Android/data/com.sneer.xhllq/hsp.txt","w+"):write(txt):close()
+      --local txt="1dnms"
+      --io.open("/storage/emulated/0/Android/data/com.sneer.xhllq/hsp.txt","w+"):write(txt):close()
       进入子页面("横竖屏",{标题="快手",链接="https://www.kuaishou.com/search/video?searchKey="..edit.text})
     end})
 end--♥♥♥
