@@ -387,6 +387,16 @@ adpd={
       text="55《水仙斗活佛》",--●55●
     },
   },
+  {
+    text={
+      text="56《子曰秋野乐队》",--●55●
+    },
+  },
+  {
+    text={
+      text="57《张悬》",--●55●
+    },
+  },
 
 }
 
@@ -691,6 +701,15 @@ list.onItemClick=function(adp,view,pos,id)
     function()--●55●
       进入子页面("调用",{标题="55《水仙斗活佛》",链接="https://lanzoui.com/b06ugoyja"})
     end,--结束●55●
+
+    function()--●56●
+      进入子页面("调用",{标题="56《子曰秋野乐队》",链接="https://lanzoui.com/b06ugoykb"})
+    end,--结束●56●
+
+    function()--●57●
+      进入子页面("调用",{标题="57《张悬》",链接="https://lanzoui.com/b06ugoylc"})
+    end,--结束●57●
+
 
   })[id]()
 end
