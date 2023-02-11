@@ -32,12 +32,11 @@ AlertDialog.Builder(this)
 .setItems(items,{onClick=function(l,v) 
 
     if items[v+1]=="智能线路●" then
-      tbmx()--鸣谢
       local txt="yzn"--●
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhgy.txt","w+"):write(txt):close()
       弹出消息("正在重置页面 系统将智能切换最优线路")
-      task(1000,function()--延迟1秒运行代码
-        activity.recreate()--重置当前界面
+      task(1500,function()--延迟1.5秒运行代码
+        activity.recreate()--重置界面
       end)
     end
 
