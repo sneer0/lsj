@@ -16,16 +16,16 @@ table.insert(items,"临时线路❸")
 table.insert(items,"临时线路❹")
 
 function tbmx()--鸣谢开始♥
- 对话框()
- .设置标题("温馨提示")
+  对话框()
+  .设置标题("温馨提示")
   .设置消息("线路内容来自第三方站点，App仅负责整合，若无法播放，请切换其他线路。")
   .设置积极按钮("好的",function()
- end)
- .设置中立按钮("原网站",function()
-  进入子页面("调用",{标题="特别鸣谢",链接="https://support.qq.com/embed/phone/374133/faqs/127110"})
- end)
- .显示()
- end--鸣谢结束♥
+  end)
+  .设置中立按钮("原网站",function()
+    进入子页面("调用",{标题="特别鸣谢",链接="https://support.qq.com/embed/phone/374133/faqs/127110"})
+  end)
+  .显示()
+end--鸣谢结束♥
 
 AlertDialog.Builder(this)
 .setTitle("云端听歌线路")--标题♥
@@ -33,11 +33,16 @@ AlertDialog.Builder(this)
 
     if items[v+1]=="智能线路●" then
       local txt="yzn"--●
-      io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhgy.txt","w+"):write(txt):close()
-      弹出消息("正在重置页面 系统将智能切换最优线路")
-      task(1500,function()--延迟1.5秒运行代码
+      对话框()
+      .设置标题("温馨提示")
+      .设置消息("启用智能线路后，每次打开软件系统都将智能选择最优线路。")
+      .设置积极按钮("确定",function()
+        io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhgy.txt","w+"):write(txt):close()
         activity.recreate()--重置界面
       end)
+      .设置中立按钮("取消",function()
+      end)
+      .显示()
     end
 
     if items[v+1]=="听歌线路❶" then
@@ -104,7 +109,7 @@ AlertDialog.Builder(this)
       弹出消息("已将线路8设为主页")
     end
 
---临时线路●●●           
+    --临时线路●●●           
     if items[v+1]=="临时线路❶" then
       进入子页面("调用",{标题="音乐风向标",链接="http://www.yyfxb.cn/dance/search?key=李志"})
     end
@@ -120,7 +125,7 @@ AlertDialog.Builder(this)
 
   end})
 .show()
-    
+
 --[[作废歌源
 http://334lizhi.top
 --]]
