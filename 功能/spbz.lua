@@ -93,9 +93,9 @@ jdpuk={
         {
           LinearLayout,
           orientation="vertical",
-          layout_margin="20dp",--项目推出边界
+          layout_margin="5dp",--项目推出边界
           layout_width="fill",
-          layout_height="50dp",--下边距提高
+          layout_height="0dp",--最底部边距
           gravity="center",
         },
       },
