@@ -203,7 +203,7 @@ list.onItemClick=function(adp,view,pos,id)
     function()--●44444
       local txt="1xfan"--悬浮按钮♥
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
-      进入子页面("横竖屏",{标题="李志视频2",链接="https://www.lizhi334.com/video"}) 
+      进入子页面("横竖屏",{标题="李志视频2",链接="https://www.lizhi334.com/BB/视频"}) 
     end,--●44444
 
     function()--●55555
