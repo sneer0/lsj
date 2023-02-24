@@ -213,14 +213,16 @@ list.onItemClick=function(adp,view,pos,id)
     end,--●55555
 
     function()--●66666
-      local txt="1234"--竖屏模式♥
+      --local txt="1234"--竖屏模式♥
+      local txt="1xfan"--悬浮按钮♥
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
       进入子页面("横竖屏",{标题="摇滚壁纸",链接="https://www.yuque.com/njlz/bz"})
       弹出消息("正在加载中...")
     end,--●66666
 
     function()--●77777
-      local txt="1234"--竖屏模式♥
+      --local txt="1234"--竖屏模式♥
+      local txt="1xfan"--悬浮按钮♥
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
       进入子页面("横竖屏",{标题="歌词卡片（刷新换词）",链接="https://neneko.cn/NanjingLizhiBot/PLUS"})
     end,--●77777
