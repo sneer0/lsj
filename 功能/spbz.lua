@@ -222,7 +222,7 @@ list.onItemClick=function(adp,view,pos,id)
     function()--●77777
       local txt="1234"--竖屏模式♥
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
-      进入子页面("横竖屏",{标题="歌词卡片（刷新换词）",链接="https://neneko.cn/NanjingLizhiBot/PLUS"})
+      进入子页面("横竖屏",{标题="歌词卡片",链接="https://neneko.cn/NanjingLizhiBot/PLUS"})
     end,--●77777
 
     function()--●88888
