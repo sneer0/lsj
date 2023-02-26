@@ -21,7 +21,7 @@ function tbmx()--鸣谢开始♥
   .设置消息("内容来自第三方站点，App仅负责整合，若无法播放，请切换其他线路。")
   .设置积极按钮("好的",function()
   end)
-  .设置中立按钮("原网站",function()
+  .设置中立按钮("源网站",function()
     进入子页面("调用",{标题="特别鸣谢",链接="https://support.qq.com/embed/phone/374133/faqs/127110"})
   end)
   .显示()
