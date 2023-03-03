@@ -1,5 +1,4 @@
 --【功能:下架说唱♥♥♥】
-♥♥♥链接到12♥♥♥
 
 require"import"
 import "android.widget.*"
@@ -110,197 +109,217 @@ adpd={
 
   {
     text={
-      text="💥 求歌&投稿&捐赠",--●1●
+      text="💥 求歌&投稿&捐赠",
     },
   },
   {
     text={
-      text="01《未分类》",--●1●
+      text="01《未分类》",
     },
   },
   {
     text={
-      text="2《醉人》",--●2●
+      text="2《醉人》",
     },
   },
   {
     text={
-      text="03《MC HotDog》",--●3●
+      text="03《MC HotDog》",
     },
   },
   {
     text={
-      text="04《小艾 EYE》",--●4●
+      text="04《小艾 EYE》",
     },
   },
   {
     text={
-      text="05《谢帝》",--●5●
+      text="05《谢帝》",
     },
   },
   {
     text={
-      text="06《阴三儿 in3》",--●6●
+      text="06《阴三儿 in3》",
     },
   },
   {
     text={
-      text="07《小老虎》",--●7●
+      text="07《小老虎》",
     },
   },
   {
     text={
-      text="08《西奥 Dirty Sio》",--●8●
+      text="08《西奥 Dirty Sio》",
     },
   },
   {
     text={
-      text="09《汀洋 FK Moses》",--●9●
+      text="09《汀洋 FK Moses》",
     },
   },
   {
     text={
-      text="10《派克特 PACT》",--●10●
+      text="10《派克特 PACT》",
     },
   },
   {
     text={
-      text="11《刘柄鑫》",--●11●
+      text="11《刘柄鑫》",
     },
   },
   {
     text={
-      text="12《姜云升》",--●12●
+      text="12《姜云升》",
     },
   },
   {
     text={
-      text="13《黄旭》",--●13●
+      text="13《黄旭》",
     },
   },
   {
     text={
-      text="14《红花会》",--●14●
+      text="14《红花会》",
     },
   },
   {
     text={
-      text="15《狠毒男孩》",--●15●
+      text="15《狠毒男孩》",
     },
   },
   {
     text={
-      text="16《凤凰鸣》",--●16●
+      text="16《凤凰鸣》",
     },
   },
   {
     text={
-      text="17《费尼克斯》",--●17●
+      text="17《费尼克斯》",
     },
   },
   {
     text={
-      text="18《丁飞》",--●18●
+      text="18《丁飞》",
     },
   },
   {
     text={
-      text="19《蛋堡 Soft Lipa》",--●19●
+      text="19《蛋堡 Soft Lipa》",
     },
   },
   {
     text={
-      text="20《弹壳 K9999》",--●20●
+      text="20《弹壳 K9999》",
     },
   },
   {
     text={
-      text="21《贝贝》",--●21●
+      text="21《贝贝》",
     },
   },
   {
     text={
-      text="22《艾福杰尼》",--●22●
+      text="22《艾福杰尼》",
     },
   },
   {
     text={
-      text="23《啊之》",--●23●
+      text="23《啊之》",
     },
   },
   {
     text={
-      text="24《Young Mai》",--●24●
+      text="24《Young Mai》",
     },
   },
   {
     text={
-      text="25《Sup Music》",--●25●
+      text="25《Sup Music》",
     },
   },
   {
     text={
-      text="26《Sting Bee》",--●26●
+      text="26《Sting Bee》",
     },
   },
   {
     text={
-      text="27《PG One》",--●27●
+      text="27《PG One》",
     },
   },
   {
     text={
-      text="28《Pace Mak1r》",--●28●
+      text="28《Pace Mak1r》",
     },
   },
   {
     text={
-      text="29《Kigga》",--●29●
+      text="29《Kigga》",
     },
   },
   {
     text={
-      text="30《L4WUDU》",--●30●
+      text="30《L4WUDU》",
     },
   },
   {
     text={
-      text="31《DP》",--●31●
+      text="31《DP》",
     },
   },
   {
     text={
-      text="32《Chyna Apple》",--●32●
+      text="32《Chyna Apple》",
     },
   },
   {
     text={
-      text="33《Buzzy RanGo》",--●33●
+      text="33《Buzzy RanGo》",
     },
   },
   {
     text={
-      text="34《小白 BrAnTB》",--●34●
+      text="34《小白 BrAnTB》",
     },
   },
   {
     text={
-      text="35《Ali》",--●35●
+      text="35《Ali》",
     },
   },
   {
     text={
-      text="36《GAI》",--●36●
+      text="36《GAI》",
     },
   },
   {
     text={
-      text="37《光光&沉珂》",--●37●
+      text="37《光光&沉珂》",
     },
   },
   {
     text={
-      text="38《马思唯》",--●38●
+      text="38《马思唯》",
+    },
+  },
+  {
+    text={
+      text="39《宋岳庭》",
+    },
+  },
+  {
+    text={
+      text="40《幼稚园杀手》",
+    },
+  },
+  {
+    text={
+      text="41《黄硕》",
+    },
+  },
+  {
+    text={
+      text="42《富裕年轻组》",
     },
   },
 
@@ -385,157 +404,173 @@ list.onItemClick=function(adp,view,pos,id)
       .显示()
     end,--★结束★
 
-    function()--●1●
+    function()
       进入子页面("调用",{标题="01《未分类》",链接="https://sneer.lanzoum.com/b06uiwd2h"}) 
-    end,--结束●1●
+    end,--【1】
 
-    function()--●2●
+    function()
       进入子页面("调用",{标题="02《醉人》",链接="https://sneer.lanzoum.com/b06uiwd3i"})
-    end,--结束●2●
+    end,--【2】
 
-    function()--●3●
+    function()
       进入子页面("调用",{标题="03《MC HotDog》",链接="https://sneer.lanzoum.com/b06uiwdkf"})
-    end,--结束●3●
+    end,--【3】
 
-    function()--●4●
+    function()
       进入子页面("调用",{标题="04《小艾 EYE》",链接="https://sneer.lanzoum.com/b06uiwdlg"})
-    end,--结束●4●
+    end,--【4】
 
-    function()--●5●
+    function()
       进入子页面("调用",{标题="05《谢帝》",链接="https://sneer.lanzoum.com/b06uiwdmh"})
-    end,--结束●5●
+    end,--【5】
 
-    function()--●6●
+    function()
       进入子页面("调用",{标题="06《阴三儿 in3》",链接="https://sneer.lanzoum.com/b06uiwdni"})
-    end,--结束●6●
+    end,--【6】
 
-    function()--●7●
+    function()
       进入子页面("调用",{标题="07《小老虎》",链接="https://sneer.lanzoum.com/b06uiwdoj"})
-    end,--结束●7●
+    end,--【7】
 
-    function()--●8●
+    function()
       进入子页面("调用",{标题="08《西奥 Dirty Sio》",链接="https://sneer.lanzoum.com/b06uiwdpa"}) 
-    end,--结束●8●
+    end,--【8】
 
-    function()--●9●
+    function()
       进入子页面("调用",{标题="09《汀洋 FK Moses》",链接="https://sneer.lanzoum.com/b06uiwdqb"})
-    end,--结束●9●
+    end,--【9】
 
-    function()--●10●
+    function()
       进入子页面("调用",{标题="10《派克特 PACT》",链接="https://sneer.lanzoum.com/b06uiwdrc"})
-    end,--结束●10●
+    end,--【10】
 
-    function()--●11●
+    function()
       进入子页面("调用",{标题="11《刘柄鑫》",链接="https://sneer.lanzoum.com/b06uiwdsd"})
-    end,--结束●11●
+    end,--【11】
 
-    function()--●12●
+    function()
       进入子页面("调用",{标题="12《姜云升》",链接="https://sneer.lanzoum.com/b06uiwdte"})
-    end,--结束●12●
+    end,--【12】
 
-    function()--●13●
-      进入子页面("调用",{标题="13《黄旭》",链接="https://lanzoui.com/b06t7vfmb"})
-    end,--结束●13●
+    function()
+      进入子页面("调用",{标题="13《黄旭》",链接="https://sneer.lanzoum.com/b06uiwduf"})
+    end,--【13】
 
-    function()--●14●
-      进入子页面("调用",{标题="14《红花会》",链接="https://lanzoui.com/b06t7vfqf"})
-    end,--结束●14●
+    function()
+      进入子页面("调用",{标题="14《红花会》",链接="https://sneer.lanzoum.com/b06uiwdvg"})
+    end,--【14】
 
-    function()--●15●
-      进入子页面("调用",{标题="15《狠毒男孩》",链接="https://lanzoui.com/b06t7vh9a"})
-    end,--结束●15●
+    function()
+      进入子页面("调用",{标题="15《狠毒男孩》",链接="https://sneer.lanzoum.com/b06uiwdxi"})
+    end,--【15】
 
-    function()--●16●
-      进入子页面("调用",{标题="16《凤凰鸣》",链接="https://lanzoui.com/b06t7vq6b"})
-    end,--结束●16●
+    function()
+      进入子页面("调用",{标题="16《凤凰鸣》",链接="https://sneer.lanzoum.com/b06uiwdyj"})
+    end,--【16】
 
-    function()--●17●
-      进入子页面("调用",{标题="17《费尼克斯》",链接="https://lanzoui.com/b06t7vqgb"})
-    end,--结束●17●
+    function()
+      进入子页面("调用",{标题="17《费尼克斯》",链接="https://sneer.lanzoum.com/b06uiwdza"})
+    end,--【17】
 
-    function()--●18●
-      进入子页面("调用",{标题="18《丁飞》",链接="https://lanzoui.com/b06t7vqlg"})
-    end,--结束●18●
+    function()
+      进入子页面("调用",{标题="18《丁飞》",链接="https://sneer.lanzoum.com/b06uiwe1c"})
+    end,--【18】
 
-    function()--●19●
-      进入子页面("调用",{标题="19《蛋堡 Soft Lipa》",链接="https://lanzoui.com/b06t7vqoj"})
-    end,--结束●19●
+    function()
+      进入子页面("调用",{标题="19《蛋堡 Soft Lipa》",链接="https://sneer.lanzoum.com/b06uiwe2d"})
+    end,--【19】
 
-    function()--●20●
-      进入子页面("调用",{标题="20《弹壳 K9999》",链接="https://lanzoui.com/b06t7vrpg"})
-    end,--结束●20●
+    function()
+      进入子页面("调用",{标题="20《弹壳 K9999》",链接="https://sneer.lanzoum.com/b06uiwe3e"})
+    end,--【20】
 
-    function()--●21●
-      进入子页面("调用",{标题="21《贝贝》",链接="https://lanzoui.com/b06t7vs3a"})
-    end,--结束●21●
+    function()
+      进入子页面("调用",{标题="21《贝贝》",链接="https://sneer.lanzoum.com/b06uiwe4f"})
+    end,--【21】
 
-    function()--●22●
-      进入子页面("调用",{标题="22《艾福杰尼》",链接="https://lanzoui.com/b06t7vt0d"})
-    end,--结束●22●
+    function()
+      进入子页面("调用",{标题="22《艾福杰尼》",链接="https://sneer.lanzoum.com/b06uiwe5g"})
+    end,--【22】
 
-    function()--●23●
-      进入子页面("调用",{标题="23《啊之》",链接="https://lanzoui.com/b06t7wakf"})
-    end,--结束●23●
+    function()
+      进入子页面("调用",{标题="23《啊之》",链接="https://sneer.lanzoum.com/b06uiwe7i"})
+    end,--【23】
 
-    function()--●24●
-      进入子页面("调用",{标题="24《Young Mai》",链接="https://lanzoui.com/b06t7wbij"})
-    end,--结束●24●
+    function()
+      进入子页面("调用",{标题="24《Young Mai》",链接="https://sneer.lanzoum.com/b06uiweab"})
+    end,--【24】
 
-    function()--●25●
-      进入子页面("调用",{标题="25《Sup Music》",链接="https://lanzoui.com/b06t7wbwd"})
-    end,--结束●25●
+    function()
+      进入子页面("调用",{标题="25《Sup Music》",链接="https://sneer.lanzoum.com/b06uiwebc"})
+    end,--【25】
 
-    function()--●26●
-      进入子页面("调用",{标题="26《Sting Bee》",链接="https://lanzoui.com/b06t7wcif"})
-    end,--结束●26●
+    function()
+      进入子页面("调用",{标题="26《Sting Bee》",链接="https://sneer.lanzoum.com/b06uiwecd"})
+    end,--【26】
 
-    function()--●27●
-      进入子页面("调用",{标题="27《PG One》",链接="https://lanzoui.com/b06t7we7g"})
-    end,--结束●27●
+    function()
+      进入子页面("调用",{标题="27《PG One》",链接="https://sneer.lanzoum.com/b06uiwede"})
+    end,--【27】
 
-    function()--●28●
-      进入子页面("调用",{标题="28《Pace Mak1r》",链接="https://lanzoui.com/b06t7wflg"})
-    end,--结束●28●
+    function()
+      进入子页面("调用",{标题="28《Pace Mak1r》",链接="https://sneer.lanzoum.com/b06uiweef"})
+    end,--【28】
 
-    function()--●29●
-      进入子页面("调用",{标题="29《Kigga》",链接="https://lanzoui.com/b06t7wg2d"})
-    end,--结束●29●
+    function()
+      进入子页面("调用",{标题="29《Kigga》",链接="https://sneer.lanzoum.com/b06uiwefg"})
+    end,--【29】
 
-    function()--●30●
-      进入子页面("调用",{标题="30《L4WUDU》",链接="https://lanzoui.com/b06t7wgzg"}) 
-    end,--结束●30●
+    function()
+      进入子页面("调用",{标题="30《L4WUDU》",链接="https://sneer.lanzoum.com/b06uiwegh"}) 
+    end,--【30】
 
-    function()--●31●
-      进入子页面("调用",{标题="31《DP》",链接="https://lanzoui.com/b06t7wi0d"})
-    end,--结束●31●
+    function()
+      进入子页面("调用",{标题="31《DP》",链接="https://sneer.lanzoum.com/b06uiwehi"})
+    end,--【31】
 
-    function()--●32●
-      进入子页面("调用",{标题="32《Chyna Apple》",链接="https://lanzoui.com/b06t7wiqj"})
-    end,--结束●32●
+    function()
+      进入子页面("调用",{标题="32《Chyna Apple》",链接="https://sneer.lanzoum.com/b06uiweij"})
+    end,--【32】
 
-    function()--●33●
-      进入子页面("调用",{标题="33《Buzzy RanGo》",链接="https://lanzoui.com/b06t7wmif"})
-    end,--结束●33●
+    function()
+      进入子页面("调用",{标题="33《Buzzy RanGo》",链接="https://sneer.lanzoum.com/b06uiweja"})
+    end,--【33】
 
-    function()--●34●
-      进入子页面("调用",{标题="34《小白 BrAnTB》",链接="https://lanzoui.com/b06t7wn7a"})
-    end,--结束●34●
+    function()
+      进入子页面("调用",{标题="34《小白 BrAnTB》",链接="https://sneer.lanzoum.com/b06uiwekb"})
+    end,--【34】
 
-    function()--●35●
-      进入子页面("调用",{标题="35《Ali》",链接="https://lanzoui.com/b06t7wo8h"})
-    end,--结束●35●
+    function()
+      进入子页面("调用",{标题="35《Ali》",链接="https://sneer.lanzoum.com/b06uiwelc"})
+    end,--【35】
 
-    function()--●36●
-      进入子页面("调用",{标题="36《GAI》",链接="https://lanzoui.com/b06t7wola"})
-    end,--结束●36●
+    function()
+      进入子页面("调用",{标题="36《GAI》",链接="https://sneer.lanzoum.com/b06uiwemd"})
+    end,--【36】
 
-    function()--●37●
-      进入子页面("调用",{标题="37《光光&沉珂》",链接="https://lanzoui.com/b06t7wrtg"})
-    end,--结束●37●
+    function()
+      进入子页面("调用",{标题="37《光光&沉珂》",链接="https://sneer.lanzoum.com/b06uiwene"})
+    end,--【37】
 
-    function()--●38●
-      进入子页面("调用",{标题="38《马思唯》",链接="https://lanzoui.com/b06t7wrwj"})
-    end,--结束●38●
+    function()
+      进入子页面("调用",{标题="38《马思唯》",链接="https://sneer.lanzoum.com/b06uiweof"})
+    end,--【38】
+
+    function()
+      进入子页面("调用",{标题="39《宋岳庭》",链接="https://sneer.lanzoum.com/b06uiwepg"})
+    end,--【39】
+
+    function()
+      进入子页面("调用",{标题="40《幼稚园杀手》",链接="https://sneer.lanzoum.com/b06uiweqh"})
+    end,--【40】
+
+    function()
+      进入子页面("调用",{标题="41《黄硕》",链接="https://sneer.lanzoum.com/b06uiweri"})
+    end,--【41】
+
+    function()
+      进入子页面("调用",{标题="42《富裕年轻组》",链接="https://sneer.lanzoum.com/b06uiwesj"})
+    end,--【42】
  
   })[id]()
 end
