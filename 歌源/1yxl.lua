@@ -14,6 +14,7 @@ table.insert(items,"临时线路❶")
 table.insert(items,"临时线路❷")
 table.insert(items,"临时线路❸")
 table.insert(items,"临时线路❹")
+table.insert(items,"临时线路❺")
 
 function tbmx()--鸣谢开始♥
   对话框()
@@ -121,6 +122,9 @@ AlertDialog.Builder(this)
     end
     if items[v+1]=="临时线路❹" then
       进入子页面("调用",{标题="Audiomack",链接="https://audiomack.com/search?q=李志&show=playlists&sort=popular"})
+    end
+    if items[v+1]=="临时线路❺" then
+      进入子页面("调用",{标题="Audiomack",链接="https://mp3-banana.pro/tracks/李志"})
     end
 
   end})
