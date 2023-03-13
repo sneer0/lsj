@@ -73,7 +73,7 @@ AlertDialog.Builder(this)
       tbmx()--鸣谢
       local txt="y4"--●
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhgy.txt","w+"):write(txt):close()
-      加载网页("https://www.lizhi334.com/BB/李志歌曲")
+      加载网页("https://www.our334.com/MP3/")
       弹出消息("已将线路4设为主页")
     end
 
