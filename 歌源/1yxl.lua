@@ -10,11 +10,11 @@ table.insert(items,"听歌线路❺")
 table.insert(items,"听歌线路❻")
 table.insert(items,"听歌线路❼")
 table.insert(items,"听歌线路❽")
-table.insert(items,"临时线路❶")
-table.insert(items,"临时线路❷")
-table.insert(items,"临时线路❸")
-table.insert(items,"临时线路❹")
-table.insert(items,"临时线路❺")
+table.insert(items,"临时线路①")
+table.insert(items,"临时线路②")
+table.insert(items,"临时线路③")
+table.insert(items,"临时线路④")
+table.insert(items,"临时线路⑤")
 
 function tbmx()--鸣谢开始♥
   对话框()
@@ -111,19 +111,19 @@ AlertDialog.Builder(this)
     end
 
     --临时线路●●●           
-    if items[v+1]=="临时线路❶" then
+    if items[v+1]=="临时线路①" then
       进入子页面("调用",{标题="音乐风向标",链接="http://www.yyfxb.cn/dance/search?key=李志"})
     end
-    if items[v+1]=="临时线路❷" then
+    if items[v+1]=="临时线路②" then
       进入子页面("调用",{标题="音乐磁场",链接="https://www.hifini.com/search-李志.htm"})
     end
-    if items[v+1]=="临时线路❸" then
+    if items[v+1]=="临时线路③" then
       进入子页面("调用",{标题="lemuzika",链接="https://lemuzika.pro/search/李志"})
     end
-    if items[v+1]=="临时线路❹" then
+    if items[v+1]=="临时线路④" then
       进入子页面("调用",{标题="Audiomack",链接="https://audiomack.com/search?q=李志&show=playlists&sort=popular"})
     end
-    if items[v+1]=="临时线路❺" then
+    if items[v+1]=="临时线路⑤" then
       进入子页面("调用",{标题="Audiomack",链接="https://mp3-banana.pro/tracks/李志"})
     end
 
