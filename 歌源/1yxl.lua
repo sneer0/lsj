@@ -124,7 +124,7 @@ AlertDialog.Builder(this)
       进入子页面("调用",{标题="Audiomack",链接="https://audiomack.com/search?q=李志&show=playlists&sort=popular"})
     end
     if items[v+1]=="临时线路⑤" then
-      进入子页面("调用",{标题="Audiomack",链接="https://mp3-banana.pro/tracks/李志"})
+      进入子页面("调用",{标题="malina",链接="https://mp3-banana.pro/tracks/李志"})
     end
 
   end})
