@@ -34,7 +34,7 @@ jdpuk={
       backgroundDrawable=GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT,{clr1,clr2}),--JDPUK
       layout_width="fill",
       layout_height="60dp",
-      titleText="下架歌曲",--♥♥♥
+      titleText="下架说唱",--♥♥♥
       returnButtonEnabled=true,
       elevation="-480dp",--未找到改变效果
       --搜索按钮♦♦♦
