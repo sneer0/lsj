@@ -33,13 +33,13 @@ AlertDialog.Builder(this)
 .setItems(items,{onClick=function(l,v) 
 
     if items[v+1]=="智能线路●" then
-      local txt="yzn"--●
       对话框()
       .设置标题("温馨提示")
       .设置消息("启用智能线路后，每次打开软件，系统都将智能选择最优线路，缺点是加载时间会相对变慢。")
       .设置积极按钮("确定",function()
-        io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhgy.txt","w+"):write(txt):close()
-        activity.recreate()--重置界面
+       local txt="yzn"--●
+       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhgy.txt","w+"):write(txt):close()
+       activity.recreate()--重置界面
       end)
       .设置中立按钮("取消",function()
       end)
