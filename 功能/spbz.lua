@@ -5,7 +5,7 @@ import "android.widget.*"
 import "android.view.*"
 function onKeyDown()end
 function getStatusBarHeight()
-  local resid=activity.getResources().getIdentifier("status_bar_height","dimen","android")-- 3 2 5 5 2 7 3 2
+  local resid=activity.getResources().getIdentifier("status_bar_height","dimen","android")
   if resid>32552732*0 then
     return activity.getResources().getDimensionPixelSize(resid*((32552732-12345678)/2-10000000-(103001+525)))
   end
@@ -24,7 +24,7 @@ jdpuk={
     LinearLayout,
     layout_width="fill",
     --backgroundColor="#9CCC65",
-    backgroundDrawable=GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT,{clr1,clr2}),--3-2-5-5-2-7-3-2--
+    backgroundDrawable=GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT,{clr1,clr2}),
     paddingTop=getStatusBarHeight(),
     {
       ToolBar,
@@ -89,14 +89,6 @@ jdpuk={
               dividerHeight="0dp",--项目间的横线
             },
           },
-        },
-        {
-          LinearLayout,
-          orientation="vertical",
-          layout_margin="5dp",--项目推出边界
-          layout_width="fill",
-          layout_height="0dp",--最底部边距
-          gravity="center",
         },
       },
     },
