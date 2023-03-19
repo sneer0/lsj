@@ -85,18 +85,10 @@ jdpuk={
               ListView,
               id="list",
               layout_width="fill",
-              layout_height="2230dp",--♦♦♦♦♦♦♦♦显示所有按钮的框的长度
+              layout_height="2240dp",--♦♦♦♦♦♦♦♦显示所有按钮的框的长度
               dividerHeight="0dp",--项目间的横线
             },
           },
-        },
-        {
-          LinearLayout,
-          orientation="vertical",
-          layout_margin="10dp",--项目推出边界
-          layout_width="fill",
-          layout_height="0dp",--最底部边距
-          gravity="center",
         },
       },
     },
