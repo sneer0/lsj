@@ -8,6 +8,7 @@ xbj=--小广告位布局
   layout_height='-1',--布局高度
   {
     CardView,--卡片控件
+layout_marginTop='5dp';--顶距◆
     layout_width='fill',--卡片宽度
     layout_height='122dp',--卡片高度◆
     CardBackgroundColor='#FFFFFF',--卡片背景颜色
