@@ -52,7 +52,7 @@ layout_marginTop='5dp';--顶距◆
                   CardBackgroundColor='#FFFFFF',--卡片背景颜色
                   --layout_margin='14dp',--卡片边距
                   --elevation='2dp',--阴影属性
-                  radius='10dp',--卡片圆角
+                  radius='0dp',--卡片圆角
                   {
                     ImageView,--图片控件
                     layout_width='fill',--图片宽度
@@ -87,7 +87,7 @@ layout_marginTop='5dp';--顶距◆
                   CardBackgroundColor='#FFFFFF',--卡片背景颜色
                   --layout_margin='14dp',--卡片边距
                   --elevation='2dp',--阴影属性
-                  radius='10dp',--卡片圆角
+                  radius='0dp',--卡片圆角
                   {
                     ImageView,--图片控件
                     layout_width='fill',--图片宽度
@@ -122,7 +122,7 @@ layout_marginTop='5dp';--顶距◆
                   CardBackgroundColor='#FFFFFF',--卡片背景颜色
                   --layout_margin='14dp',--卡片边距
                   --elevation='2dp',--阴影属性
-                  radius='10dp',--卡片圆角
+                  radius='0dp',--卡片圆角
                   {
                     ImageView,--图片控件
                     layout_width='fill',--图片宽度
@@ -157,7 +157,7 @@ layout_marginTop='5dp';--顶距◆
                   CardBackgroundColor='#FFFFFF',--卡片背景颜色
                   --layout_margin='14dp',--卡片边距
                   --elevation='2dp',--阴影属性
-                  radius='10dp',--卡片圆角
+                  radius='0dp',--卡片圆角
                   {
                     ImageView,--图片控件
                     layout_width='fill',--图片宽度
@@ -192,7 +192,7 @@ layout_marginTop='5dp';--顶距◆
                   CardBackgroundColor='#FFFFFF',--卡片背景颜色
                   --layout_margin='14dp',--卡片边距
                   --elevation='2dp',--阴影属性
-                  radius='10dp',--卡片圆角
+                  radius='0dp',--卡片圆角
                   {
                     ImageView,--图片控件
                     layout_width='fill',--图片宽度
