@@ -1,9 +1,5 @@
 --【大广告位♥♥♥】
 
---黑屏开始
-import "android.graphics.drawable.ColorDrawable"
-webView.setBackgroundColor(Color.parseColor("#FF000000"))
---黑屏结束
 
 dbj=--大广告位布局
 {
@@ -11,6 +7,7 @@ dbj=--大广告位布局
   orientation='vertical',--重力属性
   layout_width='fill',--布局宽度
   layout_height='-1',--布局高度
+  background="#FF000000",--布局背景▶
   {
     ScrollView,--竖向滑动
     layout_width='fill',--宽
