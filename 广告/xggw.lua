@@ -271,7 +271,7 @@ tp1.onClick=function()--●1●
         .setTitle("截图后打开微信扫码 关注公众号")--标题
         --.setMessage("无")--消息
         .setView(loadlayout(AboutLayout))
-        .setPositiveButton("打开微信扫码",{onClick=function(v)
+        .setPositiveButton("微信扫码",{onClick=function(v)
             下载文件("https://txc.gtimg.com/data/292760/2021/1020/09a64a61736aab7c0e19e15d9d455c29.jpeg")
             wxsm()--微信扫码
           end}) 
