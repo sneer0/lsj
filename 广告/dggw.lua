@@ -5,6 +5,7 @@ dbj=--大广告位布局
 {
   LinearLayout,
   orientation='vertical',--重力属性
+  gravity='center',--重力属性
   layout_width='fill',--布局宽度
   layout_height='-1',--布局高度
   background="#FF000000",--布局背景▶
