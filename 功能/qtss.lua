@@ -174,12 +174,33 @@ yuxuan={
           layout_marginTop="10dp";
           gravity="center",
           textColor="#FF000000";
+          text="虎扑搜索";
+          id="hpss";
+        };
+      };
+    };
+    {--♥77777
+      RelativeLayout;
+      {
+        LinearLayout;
+        layout_marginTop="5dp";--搜索选项上边距
+        layout_height="40dp";
+        layout_width="100%w";
+        orientation="vertical";
+        background="#10000000";--本来是#001467DF
+        {
+          TextView;
+          layout_width="fill";
+          layout_height="20dp";
+          layout_marginTop="10dp";
+          gravity="center",
+          textColor="#FF000000";
           text="菜谱搜索";
           id="cpss";
         };
       };
     };
-    {--♥77777
+    {--♥88888
       RelativeLayout;
       {
         LinearLayout;
@@ -200,7 +221,7 @@ yuxuan={
         };
       };
     };
-    {--♥88888
+    {--♥99999
       RelativeLayout;
       {
         LinearLayout;
@@ -331,6 +352,7 @@ end
 波纹(ksss,0xFF2EAFFF)
 波纹(tbss,0xFF2EAFFF)
 波纹(dbss,0xFF2EAFFF)
+波纹(hpss,0xFF2EAFFF)
 波纹(cpss,0xFF2EAFFF)
 波纹(zwss,0xFF2EAFFF)
 波纹(yjss,0xFF2EAFFF)
@@ -369,7 +391,7 @@ ksss.onClick=function()
     onAnimationEnd=function()
       pop.dismiss()
       local txt="1dnms"
-      io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
+      io.open("/storage/emulated/0/Android/data/com.sneer.xhllq/hsp.txt","w+"):write(txt):close()
       进入子页面("横竖屏",{标题="快手",链接="https://www.kuaishou.com/search/video?searchKey="..edit.text})
     end})
 end--♥♥♥
@@ -397,7 +419,19 @@ dbss.onClick=function()
       进入子页面("浏览器",{标题="豆瓣搜索",链接="https://m.douban.com/search/?query="..edit.text})
     end})
 end--♥♥♥
-
+          
+hpss.onClick=function()
+  yuxuandh4=TranslateAnimation(0,0,0,activity.height)
+  yuxuandh4.setDuration(10)
+  yuxuanpop.startAnimation(yuxuandh4);
+  import "android.view.animation.Animation$AnimationListener"
+  yuxuandh4.setAnimationListener(AnimationListener{
+    onAnimationEnd=function()
+      pop.dismiss()
+      进入子页面("浏览器",{标题="虎扑搜索",链接="https://bbs.hupu.com/search?q="..edit.text})
+    end})
+end--♥♥♥
+            
 cpss.onClick=function()
   yuxuandh4=TranslateAnimation(0,0,0,activity.height)
   yuxuandh4.setDuration(10)
