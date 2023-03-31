@@ -38,7 +38,7 @@ dbj=--大广告位布局
               layout_width='fill',--布局宽度
               layout_height='fill',--布局高度
               gravity='center',--宽度重力
-              id='tp1',--滑动id◆
+              id='tp1',--滑动id◆◆◆
               {
                 CardView,--卡片控件
                 layout_width='fill',--卡片宽度
@@ -73,7 +73,7 @@ dbj=--大广告位布局
               layout_width='fill',--布局宽度
               layout_height='fill',--布局高度
               gravity='center',--宽度重力
-              id='tp2',--滑动id◆
+              id='tp2',--滑动id◆◆◆
               {
                 CardView,--卡片控件
                 layout_width='fill',--卡片宽度
@@ -108,7 +108,7 @@ dbj=--大广告位布局
               layout_width='fill',--布局宽度
               layout_height='fill',--布局高度
               gravity='center',--宽度重力
-              id='tp3',--滑动id◆
+              id='tp3',--滑动id◆◆◆
               {
                 CardView,--卡片控件
                 layout_width='fill',--卡片宽度
@@ -152,17 +152,17 @@ webView.addView(loadlayout(dbj))--网络幽灵
 
 --自动滑动图片♥♥♥♥♥
 tp1.onClick=function()--●1●
-  dggw.showPage(0)--序号◆
+  dggw.showPage(0)--序号◆◆◆
   进入子页面("浏览器",{标题="星火浏览器【请更新】",链接="https://lanzoui.com/b06sn34sd"})
   退出页面()
 end--结束
 tp2.onClick=function()--开始●2●
-  dggw.showPage(1)--序号◆
+  dggw.showPage(1)--序号◆◆◆
   进入子页面("羊毛",{链接="http://ocjxs.yhzu.cn/index.php?r=/npoint9"})
   退出页面()
 end--结束
 tp3.onClick=function()--●3●
-  dggw.showPage(2)--序号◆
+  dggw.showPage(2)--序号◆◆◆
   进入子页面("调用",{标题="网易云：推歌君主页",链接="https://y.music.163.com/m/user?id=1950895176"})
   弹出消息("请打开网易云APP联系推歌君")
   退出页面()
