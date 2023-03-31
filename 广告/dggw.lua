@@ -52,13 +52,13 @@ dbj=--大广告位布局
                   layout_width='fill',--图片宽度
                   layout_height='600dp',--图片高度◆
                   scaleType='fitXY',--图片显示类型
-                  background='https://txc.gtimg.com/data/292760/2022/1027/405ecf37f51bae82d3dbdbec8cf99882.png',--背景颜色(图片路径)
+                  background='https://txc.gtimg.com/data/292760/2022/0816/0fccb554d9aeb747b30bcc603182a8e0.png',--背景颜色(图片路径)
                 },
                 {
                   TextView,
                   layout_width='match_parent',--本文宽度
                   layout_height='30dp',--本文高度
-                  text='高性价比的淘宝吉他店~',--文字1◆
+                  text='功能超强的浏览器~',--文字2◆
                   textSize='15sp',--本文大小
                   textColor='#FFFFFFFF',--本文颜色
                   background='#44000000',--本文背景
@@ -87,13 +87,13 @@ dbj=--大广告位布局
                   layout_width='fill',--图片宽度
                   layout_height='600dp',--图片高度◆
                   scaleType='fitXY',--图片显示类型
-                  background='https://txc.gtimg.com/data/292760/2022/0816/0fccb554d9aeb747b30bcc603182a8e0.png',--背景颜色(图片路径)
+                  background='https://txc.gtimg.com/data/292760/2022/0816/135543be5f9ef863365b3dd029ae1ac1.png',--背景颜色(图片路径)
                 },
                 {
                   TextView,
                   layout_width='match_parent',--本文宽度
                   layout_height='30dp',--本文高度
-                  text='功能超强的浏览器~',--文字2◆
+                  text='快来一起捡漏吧！！',--文字3◆
                   textSize='15sp',--本文大小
                   textColor='#FFFFFFFF',--本文颜色
                   background='#44000000',--本文背景
@@ -122,13 +122,13 @@ dbj=--大广告位布局
                   layout_width='fill',--图片宽度
                   layout_height='600dp',--图片高度◆
                   scaleType='fitXY',--图片显示类型
-                  background='https://txc.gtimg.com/data/292760/2022/0816/135543be5f9ef863365b3dd029ae1ac1.png',--背景颜色(图片路径)
+                  background='https://txc.gtimg.com/data/292760/2022/1027/405ecf37f51bae82d3dbdbec8cf99882.png',--背景颜色(图片路径)
                 },
                 {
                   TextView,
                   layout_width='match_parent',--本文宽度
                   layout_height='30dp',--本文高度
-                  text='快来一起捡漏吧！！',--文字3◆
+                  text='广告位招租~',--文字1◆
                   textSize='15sp',--本文大小
                   textColor='#FFFFFFFF',--本文颜色
                   background='#44000000',--本文背景
@@ -136,7 +136,8 @@ dbj=--大广告位布局
                   layout_gravity='bottom',--高度重力
                 },
               },
-            },--结束♥♥♥♥♥
+            },
+            --结束♥♥♥♥♥
 
           },
         },
@@ -152,26 +153,20 @@ webView.addView(loadlayout(dbj))--网络幽灵
 --自动滑动图片♥♥♥♥♥
 tp1.onClick=function()--●1●
   dggw.showPage(0)--序号◆
-  --打开链接
-  import "android.content.Intent"
-  import "android.net.Uri"
-  url="https://s.click.taobao.com/t?e=m%3D2%26s%3Dc2pZwFl1dtEcQipKwQzePDAVflQIoZepLKpWJ%2Bin0XJRAdhuF14FMafcocfQXw%2FqRitN3%2FurF3wgSD1Rz1soCfjtgUEK42V6xMRxuaxXMgPIr6HaDWbH%2B5YICqW9CrXsnt5cXSWYpwkhhQs2DjqgEA%3D%3D"
-  viewIntent = Intent("android.intent.action.VIEW",Uri.parse(url))
-  activity.startActivity(viewIntent)
-  --复制文本("淘口令")
-  退出页面()
-end--结束
-tp2.onClick=function()--●2●
-  dggw.showPage(1)--序号◆
   进入子页面("浏览器",{标题="星火浏览器【请更新】",链接="https://lanzoui.com/b06sn34sd"})
   退出页面()
 end--结束
-tp3.onClick=function()--开始●3●
-  dggw.showPage(2)--序号◆
+tp2.onClick=function()--开始●2●
+  dggw.showPage(1)--序号◆
   进入子页面("羊毛",{链接="http://ocjxs.yhzu.cn/index.php?r=/npoint9"})
   退出页面()
 end--结束
-
+tp3.onClick=function()--●3●
+  dggw.showPage(2)--序号◆
+  进入子页面("调用",{标题="网易云：推歌君主页",链接="https://y.music.163.com/m/user?id=1950895176"})
+  弹出消息("请打开网易云APP联系推歌君")
+  退出页面()
+end--结束
 
 
 --图片停留时间♥♥♥♥♥
