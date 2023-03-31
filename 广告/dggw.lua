@@ -122,7 +122,7 @@ dbj=--大广告位布局
                   layout_width='fill',--图片宽度
                   layout_height='600dp',--图片高度◆
                   scaleType='fitXY',--图片显示类型
-                  background='https://txc.gtimg.com/data/292760/2022/1027/405ecf37f51bae82d3dbdbec8cf99882.png',--背景颜色(图片路径)
+                  background='https://txc.gtimg.com/data/292760/2023/0331/acccc6535a74729d92a3de4ae0307ecc.jpeg',--背景颜色(图片路径)
                 },
                 {
                   TextView,
