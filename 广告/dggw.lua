@@ -58,7 +58,7 @@ dbj=--大广告位布局
                   TextView,
                   layout_width='match_parent',--本文宽度
                   layout_height='30dp',--本文高度
-                  text='求求路过的歌友给我露米叠点个关注吧，磕头了！',--文字2◆
+                  text='求路过的歌友给我露米叠点个关注吧，磕头了！',--文字2◆
                   textSize='15sp',--本文大小
                   textColor='#FFFFFFFF',--本文颜色
                   background='#44000000',--本文背景
