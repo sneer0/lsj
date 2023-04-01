@@ -193,6 +193,7 @@ tp1.onClick=function()--●1●
        url="https://b23.tv/N48rTmv"
        viewIntent = Intent("android.intent.action.VIEW",Uri.parse(url))
        activity.startActivity(viewIntent)
+       退出页面()
 end--结束
 tp2.onClick=function()--●3●
   dggw.showPage(1)--序号◆◆◆
