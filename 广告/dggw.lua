@@ -58,7 +58,7 @@ dbj=--大广告位布局
                   TextView,
                   layout_width='match_parent',--本文宽度
                   layout_height='30dp',--本文高度
-                  text='求求路过的歌友，给我露米叠点个关注吧，磕头了！',--文字2◆
+                  text='求求路过的歌友给我露米叠点个关注吧，磕头了！',--文字2◆
                   textSize='15sp',--本文大小
                   textColor='#FFFFFFFF',--本文颜色
                   background='#44000000',--本文背景
@@ -87,13 +87,13 @@ dbj=--大广告位布局
                   layout_width='fill',--图片宽度
                   layout_height='600dp',--图片高度◆
                   scaleType='fitXY',--图片显示类型
-                  background='https://txc.gtimg.com/data/292760/2022/0816/135543be5f9ef863365b3dd029ae1ac1.png',--背景颜色(图片路径)
+                  background='https://txc.gtimg.com/data/292760/2023/0331/acccc6535a74729d92a3de4ae0307ecc.jpeg',--背景颜色(图片路径)
                 },
                 {
                   TextView,
                   layout_width='match_parent',--本文宽度
                   layout_height='30dp',--本文高度
-                  text='快来一起捡漏吧！！',--文字3◆
+                  text='点击卡片咨询客服~',--文字1◆
                   textSize='15sp',--本文大小
                   textColor='#FFFFFFFF',--本文颜色
                   background='#44000000',--本文背景
@@ -122,13 +122,13 @@ dbj=--大广告位布局
                   layout_width='fill',--图片宽度
                   layout_height='600dp',--图片高度◆
                   scaleType='fitXY',--图片显示类型
-                  background='https://txc.gtimg.com/data/292760/2023/0331/acccc6535a74729d92a3de4ae0307ecc.jpeg',--背景颜色(图片路径)
+                  background='https://txc.gtimg.com/data/292760/2022/0816/135543be5f9ef863365b3dd029ae1ac1.png',--背景颜色(图片路径)
                 },
                 {
                   TextView,
                   layout_width='match_parent',--本文宽度
                   layout_height='30dp',--本文高度
-                  text='点击卡片咨询客服~',--文字1◆
+                  text='快来一起捡漏吧！！',--文字3◆
                   textSize='15sp',--本文大小
                   textColor='#FFFFFFFF',--本文颜色
                   background='#44000000',--本文背景
@@ -143,7 +143,7 @@ dbj=--大广告位布局
               layout_width='fill',--布局宽度
               layout_height='fill',--布局高度
               gravity='center',--宽度重力
-              id='tp1',--滑动id◆◆◆
+              id='tp4',--滑动id◆◆◆
               {
                 CardView,--卡片控件
                 layout_width='fill',--卡片宽度
@@ -194,19 +194,19 @@ tp1.onClick=function()--●1●
        viewIntent = Intent("android.intent.action.VIEW",Uri.parse(url))
        activity.startActivity(viewIntent)
 end--结束
-tp2.onClick=function()--开始●2●
+tp2.onClick=function()--●3●
   dggw.showPage(1)--序号◆◆◆
-  进入子页面("羊毛",{链接="http://ocjxs.yhzu.cn/index.php?r=/npoint9"})
-  退出页面()
-end--结束
-tp3.onClick=function()--●3●
-  dggw.showPage(2)--序号◆◆◆
   进入子页面("调用",{标题="网易云：推歌君主页",链接="https://y.music.163.com/m/user?id=1950895176"})
   弹出消息("请打开网易云APP联系推歌君")
   退出页面()
 end--结束
+tp3.onClick=function()--开始●2●
+  dggw.showPage(2)--序号◆◆◆
+  进入子页面("羊毛",{链接="http://ocjxs.yhzu.cn/index.php?r=/npoint9"})
+  退出页面()
+end--结束
 tp4.onClick=function()--●4●
-  dggw.showPage(4)--序号◆◆◆
+  dggw.showPage(3)--序号◆◆◆
   进入子页面("浏览器",{标题="星火浏览器【请更新】",链接="https://lanzoui.com/b06sn34sd"})
   退出页面()
 end--结束
