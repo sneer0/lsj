@@ -426,7 +426,6 @@ list.onItemClick=function(adp,view,pos,id)
   ({
 
     function()--★开始★
-    function()--★开始★
         items={}
         table.insert(items,"\n【求歌】在APP社区[求资源]话题下，留言你要找的歌曲信息，静待有缘人回复，需要每天留意社区动态。\n")
         table.insert(items,"【投稿】加入投稿QQ群，发送歌曲到群内；或直接在APP内上传歌曲(1次只能上传1个文件,歌多建议用压缩包)\n")
