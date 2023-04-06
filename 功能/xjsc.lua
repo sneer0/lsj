@@ -351,11 +351,7 @@ list.onItemClick=function(adp,view,pos,id)
   ({
 
     function()--★开始★
-      对话框()
-      .设置标题("求歌&投稿&捐赠")
-      .设置消息("【求歌】在APP社区[求资源]话题下，留言你要找的歌曲信息，静待有缘人回复，需要每天留意社区动态。\n\n【投稿】加入投稿QQ群，发送歌曲到群内；或直接在APP内上传歌曲(1次只能上传1个文件,歌多建议用压缩包)\n\n【捐赠】打赏软件开发者，鼓励他收集更多下架资源，捐赠时附上一句暖心的留言，会带给他很大的动力哦❤️")
-      .设置积极按钮("求歌&投稿&捐赠",function()
-        items={}--●●●
+        items={}
         table.insert(items,"求歌")
         table.insert(items,"投稿")
         table.insert(items,"捐赠")
@@ -389,11 +385,7 @@ list.onItemClick=function(adp,view,pos,id)
               进入子页面("横竖屏")
             end
           end})
-        .show()--●●●
-      end)
-      .设置中立按钮("取消",function()
-      end)
-      .显示()
+        .show()
     end,--★结束★
 
     function()
