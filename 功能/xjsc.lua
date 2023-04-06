@@ -352,17 +352,17 @@ list.onItemClick=function(adp,view,pos,id)
 
     function()--★开始★
         items={}
-        table.insert(items,"求歌")
-        table.insert(items,"投稿")
+        table.insert(items,"【求歌】在APP社区[求资源]话题下，留言你要找的歌曲信息，静待有缘人回复，需要每天留意社区动态。")
+        table.insert(items,"【投稿】加入投稿QQ群，发送歌曲到群内；或直接在APP内上传歌曲(1次只能上传1个文件,歌多建议用压缩包)")
         table.insert(items,"捐赠")
         AlertDialog.Builder(this)
         --.setTitle("无标题")
         .setItems(items,{onClick=function(l,v) 
-            if items[v+1]=="求歌" then
+            if items[v+1]=="【求歌】在APP社区[求资源]话题下，留言你要找的歌曲信息，静待有缘人回复，需要每天留意社区动态。" then
               进入子页面("社区",{链接="https://txc.qq.com/embed/phone/191061/topic-detail/1696#label=newest"})
               --https://txc.qq.com/embed/phone/191061/new-post?&topic_id=1696&topic_title=求资源
             end 
-            if items[v+1]=="投稿" then
+            if items[v+1]=="【投稿】加入投稿QQ群，发送歌曲到群内；或直接在APP内上传歌曲(1次只能上传1个文件,歌多建议用压缩包)" then
               items={}--投稿开始♥
               table.insert(items,"加群投稿")
               table.insert(items,"在线投稿")
@@ -379,7 +379,7 @@ list.onItemClick=function(adp,view,pos,id)
                 end})
               .show()--投稿结束♥
             end
-            if items[v+1]=="捐赠" then
+            if items[v+1]=="【捐赠】打赏软件开发者，鼓励他收集更多下架资源，捐赠时附上一句暖心的留言，会带给他很大的动力哦❤️" then
               local txt="1jz"--捐赠♥
               io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
               进入子页面("横竖屏")
