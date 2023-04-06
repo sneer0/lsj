@@ -128,14 +128,19 @@ adpd={
       text="6.摇滚壁纸",--●6●
     },
   },
-  {
+    {
     text={
-      text="7.歌词卡片",--●7●
+      text="7.摇滚视频",--●7●
     },
   },
   {
     text={
-      text="8.专辑封面",--●8●
+      text="8.歌词卡片",--●8●
+    },
+  },
+  {
+    text={
+      text="9.专辑封面",--●9●
     },
   },
 
@@ -210,16 +215,22 @@ list.onItemClick=function(adp,view,pos,id)
       进入子页面("横竖屏",{标题="摇滚壁纸",链接="https://www.yuque.com/njlz/bz"})
       弹出消息("正在加载中...")
     end,--●6●
+      
+    function()
+      local txt="1xfan"--悬浮按钮
+      io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
+      进入子页面("横竖屏",{标题="摇滚视频",链接="https://www.our334.com/all/"}) 
+    end,--●7●
 
     function()
       local txt="1234"--竖屏模式
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
       进入子页面("横竖屏",{标题="歌词卡片",链接="https://neneko.cn/NanjingLizhiBot/PLUS"})
-    end,--●7●
+    end,--●8●
 
     function()
       进入子页面("浏览器",{标题="专辑封面下载",链接="https://sneer.lanzoui.com/tp/iiFr80cla6di"})
-    end,--●8●
+    end,--●9●
 
 
   })[id]()
