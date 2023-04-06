@@ -354,7 +354,7 @@ list.onItemClick=function(adp,view,pos,id)
         items={}
         table.insert(items,"【求歌】在APP社区[求资源]话题下，留言你要找的歌曲信息，静待有缘人回复，需要每天留意社区动态。")
         table.insert(items,"【投稿】加入投稿QQ群，发送歌曲到群内；或直接在APP内上传歌曲(1次只能上传1个文件,歌多建议用压缩包)")
-        table.insert(items,"捐赠")
+        table.insert(items,"【捐赠】打赏软件开发者，鼓励他收集更多下架资源，捐赠时附上一句暖心的留言，会带给他很大的动力哦❤️")
         AlertDialog.Builder(this)
         --.setTitle("无标题")
         .setItems(items,{onClick=function(l,v) 
