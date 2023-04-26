@@ -65,7 +65,7 @@ xbj=--小广告位布局
                     TextView,
                     layout_width='match_parent',--本文宽度
                     layout_height='30dp',--本文高度
-                    text='欢迎关注APP作者的微博、网易云、公众号~',--文字◆
+                    text='欢迎关注APP作者的社交账号~',--文字◆
                     textSize='15sp',--本文大小
                     textColor='#FFFFFFFF',--本文颜色
                     background='#44000000',--本文背景
@@ -232,7 +232,7 @@ tp1.onClick=function()--●1●
   xggw.showPage(0)--序号◆
   items={}--复选框
   table.insert(items,"公众号")
-  table.insert(items,"微博号")
+  --table.insert(items,"微博号")
   table.insert(items,"网易云")
 
   AlertDialog.Builder(this)
@@ -280,13 +280,13 @@ tp1.onClick=function()--●1●
           end})
         .show()--图片对话框结束●●●
       end
-      if items[v+1]=="微博号" then--◆
+      --[[if items[v+1]=="微博号" then--◆
         import "android.content.Intent"
         import "android.net.Uri"
         url="https://m.weibo.cn/u/7754234144"
         viewIntent = Intent("android.intent.action.VIEW",Uri.parse(url))
         activity.startActivity(viewIntent) 
-      end
+      end--]]
       if items[v+1]=="网易云" then--◆
         进入子页面("调用",{标题="网易云：推歌君主页",链接="https://y.music.163.com/m/user?id=1950895176"})
         弹出消息("点击「打开」按钮 跳转网易云APP查看")
