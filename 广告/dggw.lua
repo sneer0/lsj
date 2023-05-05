@@ -185,7 +185,7 @@ webView.addView(loadlayout(dbj))--网络幽灵
 
 
 
---自动滑动图片♥♥♥♥♥
+--点击事件♥♥♥♥♥
 tp1.onClick=function()--●1●
   dggw.showPage(0)--序号◆◆◆
        import "android.content.Intent"
@@ -213,7 +213,7 @@ tp4.onClick=function()--●4●
 end--结束
       
 
---图片停留时间♥♥♥♥♥
+--自动滑动图片♥♥♥♥♥
 local n=0 
 function djt()--监听
   task(2500,function()--几秒滑动1次
