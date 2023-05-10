@@ -1,1 +1,1 @@
-加载网页("http://www.soulseeker.cn/?page_id=238")
+加载网页("https://www.lizhinb.com/music")
