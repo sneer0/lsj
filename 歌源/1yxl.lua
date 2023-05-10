@@ -19,8 +19,8 @@ table.insert(items,"临时线路⑤")
 function tbmx()--鸣谢开始♥
   对话框()
   .设置标题("温馨提示")
-  .设置消息("内容来自第三方站点，App仅负责整合，若无法播放，请切换其他线路。")
-  .设置积极按钮("好的",function()
+  .设置消息("已将当前线路设为主页，若无法播放，请切换其他线路。内容来自第三方站点，App仅负责整合.")
+  .设置积极按钮("知道啦",function()
   end)
   .设置中立按钮("源网站",function()
     进入子页面("调用",{标题="特别鸣谢",链接="https://support.qq.com/embed/phone/374133/faqs/127110"})
@@ -50,16 +50,14 @@ AlertDialog.Builder(this)
       tbmx()--鸣谢
       local txt="y1"--●
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhgy.txt","w+"):write(txt):close()
-      加载网页("https://2019334.xyz")
-      弹出消息("已将线路1设为主页")
+      加载网页("https://www.334lizhi.top")
     end
-
+        
     if items[v+1]=="听歌线路❷" then
       tbmx()--鸣谢
       local txt="y2"--●
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhgy.txt","w+"):write(txt):close()
-      加载网页("http://bbxxwl.com")
-      弹出消息("已将线路2设为主页")
+      加载网页("https://2019334.xyz")
     end
 
     if items[v+1]=="听歌线路❸" then
@@ -67,31 +65,28 @@ AlertDialog.Builder(this)
       local txt="y3"--●
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhgy.txt","w+"):write(txt):close()
       加载网页("http://334.kim")
-      弹出消息("已将线路3设为主页")
     end
 
     if items[v+1]=="听歌线路❹" then
       tbmx()--鸣谢
       local txt="y4"--●
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhgy.txt","w+"):write(txt):close()
-      加载网页("https://www.our334.com/MP3/")
-      弹出消息("已将线路4设为主页")
+      加载网页("https://lzbb.live")
     end
 
     if items[v+1]=="听歌线路❺" then
       tbmx()--鸣谢
       local txt="y5"--●
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhgy.txt","w+"):write(txt):close()
-      加载网页("http://www.soulseeker.cn/?page_id=238")
-      弹出消息("已将线路5设为主页")
+      加载网页("https://www.lizhinb.com/music")
     end
 
     if items[v+1]=="听歌线路❻" then
       tbmx()--鸣谢
       local txt="y6"--●
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhgy.txt","w+"):write(txt):close()
-      加载网页("https://lz.feifei.cf")
-      弹出消息("已将线路6设为主页 点击右上角按钮播放")
+      加载网页("http://www.soulseeker.cn/?page_id=238")
+      弹出消息("点击右上角按钮播放")
     end
 
     if items[v+1]=="听歌线路❼" then
@@ -99,7 +94,6 @@ AlertDialog.Builder(this)
       local txt="y7"--●
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhgy.txt","w+"):write(txt):close()
       加载网页("https://go.txca.ml/0:/lizhi/")
-      弹出消息("已将线路7设为主页")
     end
 
     if items[v+1]=="听歌线路❽" then
@@ -107,7 +101,6 @@ AlertDialog.Builder(this)
       local txt="y8"--●
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhgy.txt","w+"):write(txt):close()
       加载网页("https://music.njlizhi.gq")
-      弹出消息("已将线路8设为主页")
     end
 
     --临时线路●●●           
