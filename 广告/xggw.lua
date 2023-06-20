@@ -54,7 +54,7 @@ drawerLayout.getChildAt(0).addView(loadlayout{
 },-1)
 
 tz.onClick=function()--通知点击事件♥
-  弹出消息("hello")
+  进入子页面("浏览器",{标题="留声机APP【请更新】",链接="https://sneer.lanzoui.com/b06s2z42d"})
 end--♥
 
 xbj=--小广告位布局
