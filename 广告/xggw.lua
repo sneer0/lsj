@@ -11,7 +11,7 @@ drawerLayout.getChildAt(0).addView(loadlayout{
     orientation="horizontal",
     layout_width="fill";--宽度
     layout_height="21.3%w";--高度
-    gravity='left',--重力属性
+    gravity='center',--重力属性
     background="#FFFFFFFF",--顶部颜色
 
     {--标题◆
@@ -32,7 +32,7 @@ drawerLayout.getChildAt(0).addView(loadlayout{
       radius="100%w",--圆角弧度
       elevation="100%w",--圆角弧度
       layout_marginLeft='5%w';--左距
-      layout_marginTop="10.5%w";--顶距
+      layout_marginTop="3.8%w";--顶距
       CardBackgroundColor="#09000000",--颜色--透明80FFFFFF
       clickable=true,
       focusable=true,
@@ -68,7 +68,7 @@ drawerLayout.getChildAt(0).addView(loadlayout{
       layout_width="22dp",--按钮尺寸
       layout_height="22dp",--按钮尺寸
       layout_gravity="center|right",
-      layout_marginTop="3.8%w";--顶距",
+      layout_marginTop="4%w";--顶距",
       src="drawable/close_circle.png",--按钮路径♥♥♥
     };
 
