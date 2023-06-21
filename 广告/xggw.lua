@@ -1,42 +1,5 @@
 --【小广告位♥♥♥】
 
-    {--通知◆
-      CardView,
-      id="tz",
-      layout_width="60%w",--宽度
-      layout_height="8%w",--高度
-      radius="100%w",--圆角弧度
-      elevation="100%w",--圆角弧度
-      layout_marginLeft='5%w';--左距
-      layout_marginTop="10.5%w";--顶距
-      CardBackgroundColor="#09000000",--颜色--透明80FFFFFF
-      clickable=true,
-      focusable=true,
-      {
-        ImageView,
-        layout_marginLeft="0.6%w";
-        layout_width="24dp",--按钮尺寸
-        layout_height="24dp",--按钮尺寸
-        layout_marginTop="0.9%w";--顶距",
-        src="https://sneer0.github.io/lsj/图标/1_tz.png",--按钮路径♥♥♥
-      };
-      {
-        TextView;--文本控件
-        --layout_marginRight="35%w",--布局右距
-        layout_marginLeft="8%w",--布局左距
-        gravity='center';--重力
-        --左:left 右:right 中:center 顶:top 底:bottom
-        layout_width='fill';--宽度
-        layout_height='fill';--高度
-        singleLine=true;--单行显示
-        ellipsize="marquee",--显示     
-        Selected=true;--显示
-        textColor='#FF1296DB';--文字颜色        
-        text='留声机尝鲜版发布啦，点此下载，欢迎大家体验~';--显示文字
-        textSize='16dp';--文字大小
-      };
-    },
-
 --通知开始◆
 drawerLayout.getChildAt(0).addView(loadlayout{
   LinearLayout,
@@ -136,7 +99,6 @@ end
 tc.onClick=function()
   退出页面()
 end--点击◆
-
 
 
 xbj=--小广告位布局
