@@ -64,7 +64,7 @@ drawerLayout.getChildAt(0).addView(loadlayout{
     {--退出◆
       ImageView,
       id="tc",
-      layout_marginLeft="6%w";
+      layout_marginLeft="5%w";
       layout_width="22dp",--按钮尺寸
       layout_height="22dp",--按钮尺寸
       layout_gravity="center|right",
