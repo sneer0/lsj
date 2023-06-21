@@ -56,7 +56,7 @@ drawerLayout.getChildAt(0).addView(loadlayout{
         ellipsize="marquee",--显示     
         Selected=true;--显示
         textColor='#FF1296DB';--文字颜色        
-        text='留声机尝鲜版发布啦，欢迎大家体验~';--显示文字
+        text='留声机尝鲜版发布啦，点此可下载，欢迎大家体验~';--显示文字
         textSize='16dp';--文字大小
       };
     },
