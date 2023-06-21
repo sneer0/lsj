@@ -38,7 +38,7 @@ drawerLayout.getChildAt(0).addView(loadlayout{
       focusable=true,
       {
         ImageView,
-        layout_marginLeft="0.6%w";
+        layout_marginLeft="0.65%w";
         layout_width="24dp",--按钮尺寸
         layout_height="24dp",--按钮尺寸
         layout_marginTop="0.9%w";--顶距",
@@ -64,9 +64,9 @@ drawerLayout.getChildAt(0).addView(loadlayout{
     {--退出◆
       ImageView,
       id="tc",
-      layout_marginLeft="5%w";
-      layout_width="24dp",--按钮尺寸
-      layout_height="24dp",--按钮尺寸
+      layout_marginLeft="6%w";
+      layout_width="22dp",--按钮尺寸
+      layout_height="22dp",--按钮尺寸
       layout_gravity="center|right",
       layout_marginTop="3.8%w";--顶距",
       src="drawable/close_circle.png",--按钮路径♥♥♥
