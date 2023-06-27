@@ -80,7 +80,7 @@ AlertDialog.Builder(this)
       tbmx()--鸣谢
       local txt="y5"--●
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhgy.txt","w+"):write(txt):close()
-      加载网页("https://www.lizhinb.com/music")
+      加载网页("https://www.lizhinb.com/yy")
     end
 
     if items[v+1]=="听歌线路❻" then
@@ -95,19 +95,12 @@ AlertDialog.Builder(this)
       tbmx()--鸣谢
       local txt="y7"--●
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhgy.txt","w+"):write(txt):close()
-      加载网页("http://sls-mp3-static-1301308367.cos-website.ap-guangzhou.myqcloud.com")
+      加载网页("https://go.txca.ml/0:/lizhi/")
     end
 
     if items[v+1]=="听歌线路❽" then
       tbmx()--鸣谢
       local txt="y8"--●
-      io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhgy.txt","w+"):write(txt):close()
-      加载网页("https://go.txca.ml/0:/lizhi/")
-    end
-
-    if items[v+1]=="听歌线路❾" then
-      tbmx()--鸣谢
-      local txt="y9"--●
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhgy.txt","w+"):write(txt):close()
       加载网页("https://music.njlizhi.gq")
     end
