@@ -60,7 +60,7 @@ xbj=--小广告位布局◆◆◆
                     layout_width='fill',--图片宽度
                     layout_height='fill',--图片高度◆
                     scaleType='fitXY',--图片显示类型
-                    background='htthttps://txc.gtimg.com/data/292760/2023/0628/79c43e9615118a59f2d1985df12f050d.jpegps://txc.gtimg.com/data/292760/2023/0628/29cc90fe78fbebc15bc4a4755c0c4a70.jpeg',--背景颜色(图片路径)
+                    background='https://txc.gtimg.com/data/292760/2023/0628/79c43e9615118a59f2d1985df12f050d.jpeg',--背景颜色(图片路径)
                   },
                   {
                     TextView,
