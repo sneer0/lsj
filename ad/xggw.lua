@@ -1,91 +1,7 @@
---【小广告位♥♥♥】
-
---通知开始◆
-drawerLayout.getChildAt(0).addView(loadlayout{
-  LinearLayout,
-  orientation='vertical',--重力属性
-  layout_width='fill',--布局宽度
-  layout_height='fill',--布局高度
-  {
-    LinearLayout,
-    orientation="horizontal",
-    layout_width="fill";--宽度
-    layout_height="21.3%w";--高度
-    gravity='left',--重力属性center
-    background="#FFFFFFFF",--顶部颜色
-
-    {--标题◆
-      TextView;
-      text="留声机",
-      textSize="17sp";
-      textColor="#FF040404";
-      layout_gravity="center",
-      layout_marginLeft="5%w";--左距
-      layout_marginTop="3.8%w";--顶距",
-    };
-
-    {--通知◆
-      CardView,
-      id="tz",
-      layout_width="60%w",--宽度
-      layout_height="8%w",--高度
-      radius="100%w",--圆角弧度
-      elevation="100%w",--圆角弧度
-      layout_marginLeft='5%w';--左距
-      layout_marginTop="10.5%w";--顶距3.8
-      CardBackgroundColor="#09000000",--颜色--透明80FFFFFF
-      clickable=true,
-      focusable=true,
-      {
-        ImageView,
-        layout_marginLeft="0.65%w";
-        layout_width="24dp",--按钮尺寸
-        layout_height="24dp",--按钮尺寸
-        layout_marginTop="0.9%w";--顶距",
-        src="https://sneer0.github.io/lsj/图标/1_tz.png",--按钮路径♥♥♥
-      };
-      {
-        TextView;--文本控件
-        --layout_marginRight="35%w",--布局右距
-        layout_marginLeft="8%w",--布局左距
-        gravity='center';--重力
-        --左:left 右:right 中:center 顶:top 底:bottom
-        layout_width='fill';--宽度
-        layout_height='fill';--高度
-        singleLine=true;--单行显示
-        ellipsize="marquee",--显示     
-        Selected=true;--显示
-        textColor='#FF1296DB';--文字颜色        
-        text='留声机尝鲜版发布啦，点此可下载，欢迎大家体验~';--显示文字
-        textSize='16dp';--文字大小
-      };
-    },
-
-    {--退出◆
-      ImageView,
-      id="tc",
-      layout_marginLeft="5%w";--左距
-      layout_width="22dp",--按钮尺寸
-      layout_height="22dp",--按钮尺寸
-      layout_gravity="center|right",
-      layout_marginTop="4%w";--顶距",
-      src="drawable/close_circle.png",--按钮路径♥♥♥
-    };
+--【小广告位】
 
 
-  },
-},-1)
-
---点击◆
-tz.onClick=function()
-  进入子页面("浏览器",{标题="留声机APP【请更新】",链接="https://sneer.lanzoui.com/b06s2z42d"})
-end
-tc.onClick=function()
-  退出页面()
-end--点击◆
-
-
-xbj=--小广告位布局
+xbj=--小广告位布局◆◆◆
 {
   LinearLayout,
   orientation='vertical',--重力属性
@@ -144,13 +60,13 @@ xbj=--小广告位布局
                     layout_width='fill',--图片宽度
                     layout_height='fill',--图片高度◆
                     scaleType='fitXY',--图片显示类型
-                    background='https://txc.gtimg.com/data/292760/2023/0628/22ffffb0839a249cc20fd087f19c3119.jpeg',--背景颜色(图片路径)
+                    background='https://txc.gtimg.com/data/292760/2023/0628/29cc90fe78fbebc15bc4a4755c0c4a70.jpeg',--背景颜色(图片路径)
                   },
                   {
                     TextView,
                     layout_width='match_parent',--本文宽度
                     layout_height='30dp',--本文高度
-                    text='衣服鞋子清仓,联系客服可打6折~',--文字◆
+                    text='留声机用户福利,联系客服可打6折~',--文字◆
                     textSize='15sp',--本文大小
                     textColor='#FFFFFFFF',--本文颜色
                     background='#44000000',--本文背景
@@ -298,7 +214,7 @@ xbj=--小广告位布局
                     layout_gravity='bottom',--高度重力
                   },
                 },
-              },--结束♥♥♥♥♥
+              },--结束◆◆
 
             },
           },
@@ -311,8 +227,7 @@ xbj=--小广告位布局
 webView.addView(loadlayout(xbj))--网络幽灵
 
 
-
---自动滑动图片♥♥♥♥♥
+--自动滑动图片◆◆
 tp1.onClick=function()--●1●
        import "android.content.Intent"
        import "android.net.Uri"
@@ -339,8 +254,7 @@ tp5.onClick=function()--●5●
 end--结束
 
 
-
---设置图片停留时间♥♥♥♥♥
+--设置图片停留时间◆◆
 local n=0 
 function xjt()--小广告位监听
   task(3500,function()--3.5秒滑动一次◆
@@ -349,3 +263,90 @@ function xjt()--小广告位监听
   end)
 end 
 xjt()
+
+
+
+
+
+--通知开始◆◆◆
+drawerLayout.getChildAt(0).addView(loadlayout{
+  LinearLayout,
+  orientation='vertical',--重力属性
+  layout_width='fill',--布局宽度
+  layout_height='fill',--布局高度
+  {
+    LinearLayout,
+    orientation="horizontal",
+    layout_width="fill";--宽度
+    layout_height="21.3%w";--高度
+    gravity='left',--重力属性center
+    background="#FFFFFFFF",--顶部颜色
+
+    {--标题◆
+      TextView;
+      text="留声机",
+      textSize="17sp";
+      textColor="#FF040404";
+      layout_gravity="center",
+      layout_marginLeft="5%w";--左距
+      layout_marginTop="3.8%w";--顶距",
+    };
+
+    {--通知◆
+      CardView,
+      id="tz",
+      layout_width="60%w",--宽度
+      layout_height="8%w",--高度
+      radius="100%w",--圆角弧度
+      elevation="100%w",--圆角弧度
+      layout_marginLeft='5%w';--左距
+      layout_marginTop="10.5%w";--顶距3.8
+      CardBackgroundColor="#09000000",--颜色--透明80FFFFFF
+      clickable=true,
+      focusable=true,
+      {
+        ImageView,
+        layout_marginLeft="0.65%w";
+        layout_width="24dp",--按钮尺寸
+        layout_height="24dp",--按钮尺寸
+        layout_marginTop="0.9%w";--顶距",
+        src="https://sneer0.github.io/lsj/图标/1_tz.png",--按钮路径◆
+      };
+      {
+        TextView;--文本控件
+        --layout_marginRight="35%w",--布局右距
+        layout_marginLeft="8%w",--布局左距
+        gravity='center';--重力
+        --左:left 右:right 中:center 顶:top 底:bottom
+        layout_width='fill';--宽度
+        layout_height='fill';--高度
+        singleLine=true;--单行显示
+        ellipsize="marquee",--显示     
+        Selected=true;--显示
+        textColor='#FF1296DB';--文字颜色        
+        text='留声机尝鲜版发布啦，点此可下载，欢迎大家体验~';--显示文字
+        textSize='16dp';--文字大小
+      };
+    },
+
+    {--退出◆
+      ImageView,
+      id="tc",
+      layout_marginLeft="5%w";--左距
+      layout_width="22dp",--按钮尺寸
+      layout_height="22dp",--按钮尺寸
+      layout_gravity="center|right",
+      layout_marginTop="4%w";--顶距",
+      src="drawable/close_circle.png",--按钮路径◆
+    };
+
+  },
+},-1)
+
+--点击◆◆
+tz.onClick=function()
+  进入子页面("浏览器",{标题="留声机APP【请更新】",链接="https://sneer.lanzoui.com/b06s2z42d"})
+end
+tc.onClick=function()
+  退出页面()
+end--点击◆◆
