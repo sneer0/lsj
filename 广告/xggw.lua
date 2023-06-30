@@ -1,24 +1,28 @@
+import 'zy'
+
 --【小广告位♥♥♥】
 
 --通知开始◆
 drawerLayout.getChildAt(0).addView(loadlayout{
   LinearLayout,
-  orientation='vertical',--重力属性
+  orientation='vertical', 
   layout_width='fill',--布局宽度
   layout_height='fill',--布局高度
   {
     LinearLayout,
     orientation="horizontal",
+    elevation='0dp';--阴影
+    gravity='left',--重力属性
     layout_width="fill";--宽度
     layout_height="21.3%w";--高度
-    gravity='left',--重力属性center
-    background="#FFFFFFFF",--顶部颜色
+    background="#FFF5F5F5",--顶部颜色
 
     {--标题◆
       TextView;
       text="留声机",
       textSize="17sp";
       textColor="#FF040404";
+      elevation='0dp';--阴影
       layout_gravity="center",
       layout_marginLeft="5%w";--左距
       layout_marginTop="3.8%w";--顶距",
@@ -27,6 +31,7 @@ drawerLayout.getChildAt(0).addView(loadlayout{
     {--通知◆
       CardView,
       id="tz",
+      elevation='0dp';--阴影
       layout_width="60%w",--宽度
       layout_height="8%w",--高度
       radius="100%w",--圆角弧度
@@ -38,6 +43,7 @@ drawerLayout.getChildAt(0).addView(loadlayout{
       focusable=true,
       {
         ImageView,
+        elevation='0dp';--阴影
         layout_marginLeft="0.65%w";
         layout_width="24dp",--按钮尺寸
         layout_height="24dp",--按钮尺寸
@@ -46,9 +52,10 @@ drawerLayout.getChildAt(0).addView(loadlayout{
       };
       {
         TextView;--文本控件
+        gravity='center';--重力
+        elevation='0dp';--阴影
         --layout_marginRight="35%w",--布局右距
         layout_marginLeft="8%w",--布局左距
-        gravity='center';--重力
         --左:left 右:right 中:center 顶:top 底:bottom
         layout_width='fill';--宽度
         layout_height='fill';--高度
@@ -64,10 +71,11 @@ drawerLayout.getChildAt(0).addView(loadlayout{
     {--退出◆
       ImageView,
       id="tc",
+      elevation='0dp';--阴影
+      layout_gravity="center|right",
       layout_marginLeft="5%w";--左距
       layout_width="22dp",--按钮尺寸
       layout_height="22dp",--按钮尺寸
-      layout_gravity="center|right",
       layout_marginTop="4%w";--顶距",
       src="drawable/close_circle.png",--按钮路径♥♥♥
     };
@@ -99,7 +107,7 @@ xbj=--小广告位布局
     layout_height='122dp',--卡片高度◆
     CardBackgroundColor='#FFFFFF',--卡片背景颜色
     layout_margin='14dp',--卡片边距
-    elevation='2dp',--阴影属性
+    --elevation='2dp',--阴影属性
     radius='10dp',--卡片圆角
     {
       ScrollView,--竖向滑动
