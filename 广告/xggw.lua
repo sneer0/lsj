@@ -14,7 +14,7 @@ drawerLayout.getChildAt(0).addView(loadlayout{
     gravity='left',--重力属性
     layout_width="fill";--宽度
     layout_height="21.3%w";--高度
-    background="#FFF5F5F5",--顶部颜色
+    background="#FFFFFFFF",--顶部颜色
 
     {--标题◆
       TextView;
@@ -47,7 +47,7 @@ drawerLayout.getChildAt(0).addView(loadlayout{
         layout_width="24dp",--按钮尺寸
         layout_height="24dp",--按钮尺寸
         layout_marginTop="0.9%w";--顶距",
-        src="https://sneer0.github.io/lsj/图标/1_tz.png",--按钮路径♥♥♥
+        src="drawable/1_tz.png",--按钮路径♥♥♥
       };
       {
         TextView;--文本控件
