@@ -47,6 +47,7 @@ drawerLayout.getChildAt(0).addView(loadlayout{
         layout_width="24dp",--按钮尺寸
         layout_height="24dp",--按钮尺寸
         layout_marginTop="0.9%w";--顶距",
+        ColorFilter="#FF040404";--图片蒙版♥
         src="drawable/1_tz.png",--按钮路径♥♥♥
       };
       {
@@ -61,7 +62,7 @@ drawerLayout.getChildAt(0).addView(loadlayout{
         singleLine=true;--单行显示
         ellipsize="marquee",--显示     
         Selected=true;--显示
-        textColor='#FF1296DB';--文字颜色        
+        textColor='#FF040404';--文字颜色        
         text='留声机尝鲜版发布啦，点此可下载，欢迎大家体验~';--显示文字
         textSize='16dp';--文字大小
       };
