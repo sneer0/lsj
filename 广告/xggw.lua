@@ -4,6 +4,7 @@
 drawerLayout.getChildAt(0).addView(loadlayout{
   LinearLayout,
   orientation='vertical', 
+  elevation='0dp';--阴影
   layout_width='fill',--布局宽度
   layout_height='fill',--布局高度
   {
