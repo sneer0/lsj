@@ -311,7 +311,7 @@ drawerLayout.getChildAt(0).addView(loadlayout{
         layout_height="24dp",--按钮尺寸
         layout_marginTop="0.9%w";--顶距",
         ColorFilter="#FF888888";--图片蒙版
-        src="https://sneer0.github.io/lsj/图标/1_tz.png",--按钮路径◆
+        src="drawable/1_tz.png",--按钮路径◆
       };
       {
         TextView;--文本控件
