@@ -324,7 +324,7 @@ drawerLayout.getChildAt(0).addView(loadlayout{
         singleLine=true;--单行显示
         ellipsize="marquee",--显示     
         Selected=true;--显示
-        textColor='#FF888888';--文字颜色        
+        textColor='#FF888888';--文字颜色       
         text='留声机尝鲜版发布啦，点此可下载，欢迎大家体验~';--显示文字
         textSize='16dp';--文字大小
       };
