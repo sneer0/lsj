@@ -16,7 +16,7 @@ xbj=--小广告位布局◆◆◆
     CardBackgroundColor='#FFFFFF',--卡片背景颜色
     layout_margin='14dp',--卡片边距
     elevation='2dp',--阴影属性
-    radius='10dp',--卡片圆角
+    radius='12dp',--卡片圆角
     {
       ScrollView,--竖向滑动
       layout_width='fill',--宽
