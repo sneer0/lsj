@@ -268,7 +268,7 @@ xjt()
 
 
 
---通知开始◆◆◆
+--[[通知开始◆◆◆
 drawerLayout.getChildAt(0).addView(loadlayout{
   LinearLayout,
   orientation='vertical',--重力属性
@@ -350,4 +350,4 @@ tz.onClick=function()
 end
 tc.onClick=function()
   退出页面()
-end--点击◆◆
+end--点击◆◆]]
