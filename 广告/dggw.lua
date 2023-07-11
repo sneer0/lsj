@@ -91,29 +91,29 @@ dbj=--大广告位布局
                 },
                 {
                   TextView,
-                  layout_width='match_parent',--本文宽度
-                  layout_height='30dp',--本文高度
-                  text='点击卡片咨询客服~',--文字1◆
-                  textSize='15sp',--本文大小
-                  textColor='#FFFFFFFF',--本文颜色
-                  background='#44000000',--本文背景
-                  gravity='center',--宽度重力
-                  layout_gravity='bottom',--高度重力
+                  layout_width='match_parent'，--本文宽度
+                  layout_height='30dp'，--本文高度
+                  text='点击卡片咨询客服~'，--文字1◆
+                  textSize='15sp'，--本文大小
+                  textColor='#FFFFFFFF'，--本文颜色
+                  background='#44000000'，--本文背景
+                  gravity='center'，--宽度重力
+                  layout_gravity='bottom'，--高度重力
                 },
               },
             },
             {--●3●
               LinearLayout,
-              orientation='vertical',--重力属性
-              layout_width='fill',--布局宽度
-              layout_height='fill',--布局高度
-              gravity='center',--宽度重力
-              id='tp3',--滑动id◆◆◆
+              orientation='vertical'，--重力属性
+              layout_width='fill'，--布局宽度
+              layout_height='fill'，--布局高度
+              gravity='center'，--宽度重力
+              id='tp3'，--滑动id◆◆◆
               {
                 CardView,--卡片控件
-                layout_width='fill',--卡片宽度
-                layout_height='600dp',--卡片高度◆
-                CardBackgroundColor='#FFFFFF',--卡片背景颜色
+                layout_width='fill'，--卡片宽度
+                layout_height='600dp'，--卡片高度◆
+                CardBackgroundColor='#FFFFFF'，--卡片背景颜色
                 layout_margin='14dp',--卡片边距
                 elevation='2dp',--阴影属性
                 radius='10dp',--卡片圆角
