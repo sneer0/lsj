@@ -114,61 +114,61 @@ dbj=--大广告位布局
                 layout_width='fill'，--卡片宽度
                 layout_height='600dp'，--卡片高度◆
                 CardBackgroundColor='#FFFFFF'，--卡片背景颜色
-                layout_margin='14dp',--卡片边距
-                elevation='2dp',--阴影属性
-                radius='10dp',--卡片圆角
+                layout_margin='14dp'，--卡片边距
+                elevation='2dp'，--阴影属性
+                radius='10dp'，--卡片圆角
                 {
                   ImageView,--图片控件
-                  layout_width='fill',--图片宽度
-                  layout_height='600dp',--图片高度◆
-                  scaleType='fitXY',--图片显示类型
-                  background='https://txc.gtimg.com/data/292760/2022/0816/135543be5f9ef863365b3dd029ae1ac1.png',--背景颜色(图片路径)
+                  layout_width='fill'，--图片宽度
+                  layout_height='600dp'，--图片高度◆
+                  scaleType='fitXY'，--图片显示类型
+                  background='https://txc.gtimg.com/data/292760/2022/0816/135543be5f9ef863365b3dd029ae1ac1.png'，--背景颜色(图片路径)
                 },
                 {
                   TextView,
-                  layout_width='match_parent',--本文宽度
-                  layout_height='30dp',--本文高度
-                  text='快来一起捡漏吧！！',--文字3◆
-                  textSize='15sp',--本文大小
-                  textColor='#FFFFFFFF',--本文颜色
-                  background='#44000000',--本文背景
-                  gravity='center',--宽度重力
-                  layout_gravity='bottom',--高度重力
+                  layout_width='match_parent'，--本文宽度
+                  layout_height='30dp'，--本文高度
+                  text='快来一起捡漏吧！！'，--文字3◆
+                  textSize='15sp'，--本文大小
+                  textColor='#FFFFFFFF'，--本文颜色
+                  background='#44000000'，--本文背景
+                  gravity='center'，--宽度重力
+                  layout_gravity='bottom'，--高度重力
                 },
               },
             },
             {--●4●
               LinearLayout,
-              orientation='vertical',--重力属性
-              layout_width='fill',--布局宽度
-              layout_height='fill',--布局高度
-              gravity='center',--宽度重力
-              id='tp4',--滑动id◆◆◆
+              orientation='vertical'，--重力属性
+              layout_width='fill'，--布局宽度
+              layout_height='fill'，--布局高度
+              gravity='center'，--宽度重力
+              id='tp4'，--滑动id◆◆◆
               {
                 CardView,--卡片控件
-                layout_width='fill',--卡片宽度
-                layout_height='600dp',--卡片高度◆
-                CardBackgroundColor='#FFFFFF',--卡片背景颜色
-                layout_margin='14dp',--卡片边距
-                elevation='2dp',--阴影属性
-                radius='10dp',--卡片圆角
+                layout_width='fill'，--卡片宽度
+                layout_height='600dp'，--卡片高度◆
+                CardBackgroundColor='#FFFFFF'，--卡片背景颜色
+                layout_margin='14dp'，--卡片边距
+                elevation='2dp'，--阴影属性
+                radius='10dp'，--卡片圆角
                 {
                   ImageView,--图片控件
-                  layout_width='fill',--图片宽度
-                  layout_height='600dp',--图片高度◆
-                  scaleType='fitXY',--图片显示类型
-                  background='https://txc.gtimg.com/data/292760/2022/0816/0fccb554d9aeb747b30bcc603182a8e0.png',--背景颜色(图片路径)
+                  layout_width='fill'，--图片宽度
+                  layout_height='600dp'，--图片高度◆
+                  scaleType='fitXY'，--图片显示类型
+                  background='https://txc.gtimg.com/data/292760/2022/0816/0fccb554d9aeb747b30bcc603182a8e0.png'，--背景颜色(图片路径)
                 },
                 {
                   TextView,
-                  layout_width='match_parent',--本文宽度
-                  layout_height='30dp',--本文高度
-                  text='功能超强的浏览器~',--文字2◆
-                  textSize='15sp',--本文大小
-                  textColor='#FFFFFFFF',--本文颜色
-                  background='#44000000',--本文背景
-                  gravity='center',--宽度重力
-                  layout_gravity='bottom',--高度重力
+                  layout_width='match_parent'，--本文宽度
+                  layout_height='30dp'，--本文高度
+                  text='功能超强的浏览器~'，--文字2◆
+                  textSize='15sp'，--本文大小
+                  textColor='#FFFFFFFF'，--本文颜色
+                  background='#44000000'，--本文背景
+                  gravity='center'，--宽度重力
+                  layout_gravity='bottom'，--高度重力
                 },
               },
             },
@@ -211,15 +211,14 @@ tp4.onClick=function()--●4●
   进入子页面("浏览器",{标题="星火浏览器【请更新】",链接="https://lanzoui.com/b06sn34sd"})
   退出页面()
 end--结束
-      
+
 
 --自动滑动图片♥♥♥♥♥
 local n=0 
 function djt()--监听
-  task(2500,function()--几秒滑动1次
+  task(2500，function()--几秒滑动1次
     n=n+1 dggw.showPage(n%4)--4张图片◆◆◆
     djt()
   end)
 end 
 djt()
- 
