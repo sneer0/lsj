@@ -42,7 +42,7 @@ dbj=--大广告位布局
               {
                 CardView,--卡片控件
                 layout_width='fill'，--卡片宽度
-                layout_height='400dp'，--卡片高度◆
+                layout_height='550dp'，--卡片高度◆
                 CardBackgroundColor='#FFFFFF'，--卡片背景颜色
                 layout_margin='14dp'，--卡片边距
                 elevation='2dp'，--阴影属性
