@@ -3,7 +3,7 @@ xbj=--小广告位布局◆◆◆
   LinearLayout,
   orientation='vertical',--重力属性
   layout_width='fill',--布局宽度
-  layout_height='125dp',--布局高度
+  layout_height='130dp',--布局高度
   --background="#FFF5F5F5",--背景色▶
   {
     CardView,--卡片控件
