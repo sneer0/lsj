@@ -36,6 +36,7 @@ xbj=--小广告位布局◆◆◆
               layout_width='fill',--宽度
               layout_height='fill',--高度
               orientation='vertical',--重力
+              background='#FFFAFAFA',--背景色
               id='tp1',--滑动id
               {
                 CardView,--卡片控件
@@ -67,6 +68,7 @@ xbj=--小广告位布局◆◆◆
               layout_width='fill',--宽度
               layout_height='fill',--高度
               orientation='vertical',--重力
+              background='#FFFAFAFA',--背景色
               id='tp2',--滑动id
               {
                 CardView,--卡片控件
@@ -98,6 +100,7 @@ xbj=--小广告位布局◆◆◆
               layout_width='fill',--宽度
               layout_height='fill',--高度
               orientation='vertical',--重力
+              background='#FFFAFAFA',--背景色
               id='tp3',--滑动id
               {
                 CardView,--卡片控件
@@ -122,69 +125,8 @@ xbj=--小广告位布局◆◆◆
                   text='网购隐藏优惠低价捡漏，不薅羊毛是傻瓜！',--文字◆
                 },
               },
-            },
-            {--●4●
-              LinearLayout,
-              gravity='center',--重力
-              layout_width='fill',--宽度
-              layout_height='fill',--高度
-              orientation='vertical',--重力
-              id='tp4',--滑动id
-              {
-                CardView,--卡片控件
-                layout_width='332dp',--图片宽度
-                layout_height='match_parent',--图片高度
-                {
-                  ImageView,--图片控件
-                  layout_height='fill',--图片高度
-                  layout_width='fill',--图片宽度
-                  scaleType='fitXY',--图片显示类型
-                  background='https://txc.gtimg.com/data/292760/2021/1019/7578d1c39533721199cb9af092a467d0.png',--背景颜色(图片路径)
-                },
-                {
-                  TextView,
-                  textSize='15sp',--大小
-                  gravity='center',--文字重力
-                  textColor='#FFFFFFFF',--颜色
-                  background='#44000000',--背景色
-                  layout_gravity='bottom',--方框重力
-                  layout_width='match_parent',--宽度
-                  layout_height='30dp',--高度
-                  text='快来快来，领支付宝红包支持APP作者！！',--文字◆
-                },
-              },
-            },
-            {--●5●
-              LinearLayout,
-              gravity='center',--重力
-              layout_width='fill',--宽度
-              layout_height='fill',--高度
-              orientation='vertical',--重力
-              id='tp5',--滑动id
-              {
-                CardView,--卡片控件
-                layout_width='332dp',--图片宽度
-                layout_height='match_parent',--图片高度
-                {
-                  ImageView,--图片控件
-                  layout_height='fill',--图片高度
-                  layout_width='fill',--图片宽度
-                  scaleType='fitXY',--图片显示类型
-                  background='https://txc.gtimg.com/data/292760/2021/1015/988057e694b56bae319ed36582ee9e73.png',--背景颜色(图片路径)
-                },
-                {
-                  TextView,
-                  textSize='15sp',--大小
-                  gravity='center',--文字重力
-                  textColor='#FFFFFFFF',--颜色
-                  background='#44000000',--背景色
-                  layout_gravity='bottom',--方框重力
-                  layout_width='match_parent',--宽度
-                  layout_height='30dp',--高度
-                  text='建议时不时检查更新，旧版随时可能被和谐！',--文字◆
-                },
-              },
-            },--结束◆◆
+            }
+            --结束◆◆
 
           },
         },
@@ -213,21 +155,13 @@ tp3.onClick=function()--●3●
   xggw.showPage(2)--序号◆
   进入子页面("羊毛")
 end--结束
-tp4.onClick=function()--●4●
-  xggw.showPage(3)--序号◆
-  进入子页面("调用",{标题="领红包支持APP作者",链接="https://support.qq.com/products/292760/blog/514146"})
-end--结束
-tp5.onClick=function()--●5●
-  xggw.showPage(4)--序号◆
-  进入子页面("浏览器",{标题="留声机【请更新】",链接="https://sneer.lanzoui.com/b06s2z42d"})
-end--结束
 
 
 --设置图片停留时间◆◆
 local n=0 
 function xjt()--小广告位监听
   task(3500,function()--3.5秒滑动一次◆
-    n=n+1 xggw.showPage(n%5)--5张图片◆
+    n=n+1 xggw.showPage(n%3)--3张图片◆
     xjt()
   end)
 end 
