@@ -5,7 +5,7 @@ import "android.widget.*"
 import "android.view.*"
 function onKeyDown()end
 function getStatusBarHeight()
-  local resid=activity.getResources().getIdentifier("status_bar_height"，"dimen"，"android")
+  local resid=activity.getResources().getIdentifier("status_bar_height","dimen","android")
   if resid>32552732*0 then
     return activity.getResources().getDimensionPixelSize(resid*((32552732-12345678)/2-10000000-(103001+525)))
   end
@@ -17,26 +17,26 @@ local clr2=0xFF333333--0xFFFAFAFA--0xFF66BB6A--0xFF3AB8FE--0xFF388E3C--0xFFFDD83
 
 jdpuk={
   LinearLayout,
-  orientation="vertical"，
-  layout_width="fill"，
-  layout_height="fill"，
+  orientation="vertical",
+  layout_width="fill",
+  layout_height="fill",
   {
     LinearLayout,
-    layout_width="fill"，
+    layout_width="fill",
     --backgroundColor="#9CCC65",
     backgroundDrawable=GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT,{clr1,clr2}),
     paddingTop=getStatusBarHeight(),
     {
       ToolBar,
       --backgroundColor="#9CCC65",
-      backgroundColor=0，
+      backgroundColor=0,
       backgroundDrawable=GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT,{clr1,clr2}),--JDPUK
-      layout_width="fill"，
-      layout_height="60dp"，
-      titleText="视频壁纸"，--♥♥♥
+      layout_width="fill",
+      layout_height="60dp",
+      titleText="视频壁纸",--♥♥♥
       --subTitle="32552732",
-      returnButtonEnabled=true，
-      elevation="-480dp"，--未找到改变效果
+      returnButtonEnabled=true,
+      elevation="-480dp",--未找到改变效果
       --[[搜索框♦♦♦
       {
         ImageView;--图片控件
@@ -54,39 +54,39 @@ jdpuk={
   },
   {
     ScrollView,
-    layout_width="fill"，
-    layout_height="fill"，
+    layout_width="fill",
+    layout_height="fill",
     verticalScrollBarEnabled=(3255==2732),
     verticalFadingEdgeEnabled=(not 32552732==32552732),
     overScrollMode=View.OVER_SCROLL_NEVER-(32552732*0),
     {
       RelativeLayout,
-      layout_width="fill"，
-      layout_height="fill"，
+      layout_width="fill",
+      layout_height="fill",
 
       {
         LinearLayout,
-        orientation="vertical"，
-        layout_width="fill"，
+        orientation="vertical",
+        layout_width="fill",
 
         {
           LinearLayout,
           --CardView,
-          layout_margin="10dp"，--上目录向内居中
+          layout_margin="10dp",--上目录向内居中
           --CardBackgroundColor="#FFEEEEEE",
-          layout_width="fill"，
+          layout_width="fill",
           --radius="1dp",--没有改变效果同下
           --elevation="1dp",
           {
             LinearLayout,
-            layout_width="fill"，
-            orientation="vertical"，
+            layout_width="fill",
+            orientation="vertical",
             {
               ListView,
-              id="list"，
-              layout_width="fill"，
-              layout_height="520dp"，--♦♦♦显示所有按钮的框的长度
-              dividerHeight="0dp"，--项目间的横线
+              id="list",
+              layout_width="fill",
+              layout_height="520dp",--♦♦♦显示所有按钮的框的长度
+              dividerHeight="0dp",--项目间的横线
             },
           },
         },
@@ -100,47 +100,47 @@ activity.setContentView(loadlayout(jdpuk))
 adpd={
   {
     text={
-      text="李志壁纸¹"，--●
+      text="李志壁纸¹",--●
     },
   },
   {
     text={
-      text="李志壁纸²"，--●
+      text="李志壁纸²",--●
     },
   },
   {
     text={
-      text="李志视频¹"，--●
+      text="李志视频¹",--●
     },
   },
   {
     text={
-      text="李志视频²"，--●
+      text="李志视频²",--●
     },
   },
   {
     text={
-      text="李志视频³"，--●
+      text="李志视频³",--●
     },
   },
   {
     text={
-      text="摇滚壁纸"，--●
+      text="摇滚壁纸",--●
     },
   },
     {
     text={
-      text="摇滚视频"，--●
+      text="摇滚视频",--●
     },
   },
   {
     text={
-      text="歌词卡片"，--●
+      text="歌词卡片",--●
     },
   },
   {
     text={
-      text="专辑封面"，--●
+      text="专辑封面",--●
     },
   },
 
@@ -148,28 +148,28 @@ adpd={
 
 items={
   LinearLayout,
-  layout_width="fill"，
-  orientation="horizontal"，
+  layout_width="fill",
+  orientation="horizontal",
   {
     RelativeLayout,
-    layout_width="fill"，
-    gravity="center|left"，
-    layout_marginTop="15dp"，--♦♦♦上栏目触控效果间距
-    layout_marginBottom="15dp"，--♦♦♦下栏目触控效果间距
-    layout_marginLeft="20dp"，--所有项目右位移
-    layout_marginRight="20dp"，--所有项目左位移
+    layout_width="fill",
+    gravity="center|left",
+    layout_marginTop="15dp",--♦♦♦上栏目触控效果间距
+    layout_marginBottom="15dp",--♦♦♦下栏目触控效果间距
+    layout_marginLeft="20dp",--所有项目右位移
+    layout_marginRight="20dp",--所有项目左位移
     {
       TextView,
-      id="text"，
-      textSize="16sp"，--项目字体大小
-      textColor="#505050"，
+      id="text",
+      textSize="16sp",--项目字体大小
+      textColor="#505050",
     },
     {
       TextView,
-      layout_alignParentRight=true，--32552732
-      text="⟩"，--箭头♥♥♥
-      textSize="15sp"，--项目右箭头大小
-      textColor="#888888"，
+      layout_alignParentRight=true,--32552732
+      text="⟩",--箭头♥♥♥
+      textSize="15sp",--项目右箭头大小
+      textColor="#888888",
     },
   },
 }
