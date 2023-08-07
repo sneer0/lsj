@@ -123,11 +123,6 @@ adpd={
       text="李志视频³"，--●
     },
   },
-    {
-    text={
-      text="李志视频⁴"，--●
-    },
-  },
   {
     text={
       text="摇滚壁纸"，--●
@@ -213,12 +208,6 @@ list.onItemClick=function(adp,view,pos,id)
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt"，"w+"):write(txt):close()
       进入子页面("横竖屏",{标题="李志视频3",链接="https://lzbb.live/v/"}) 
     end，--●
-      
-    function()
-      local txt="1xfan"--悬浮按钮
-      io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt"，"w+"):write(txt):close()
-      进入子页面("横竖屏",{标题="李志视频4",链接="https://m.baidu.com/sf/vsearch?pd=video&word=李志&tn=vsearch&sa=vs_tab&lid=11830035256991840593&ms=1&from=1022560v&atn=index"}) 
-    end，--●
 
     function()
       local txt="1234"--竖屏模式
@@ -230,7 +219,7 @@ list.onItemClick=function(adp,view,pos,id)
     function()
       local txt="1xfan"--悬浮按钮
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt"，"w+"):write(txt):close()
-      进入子页面("横竖屏",{标题="摇滚视频",链接="https://www.lizhinb.com/all"}) 
+      进入子页面("横竖屏",{标题="摇滚视频",链接="https://www.lizhinb.com/all/"}) 
     end，--●
 
     function()
