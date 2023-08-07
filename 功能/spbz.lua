@@ -5,7 +5,7 @@ import "android.widget.*"
 import "android.view.*"
 function onKeyDown()end
 function getStatusBarHeight()
-  local resid=activity.getResources().getIdentifier("status_bar_height","dimen","android")
+  local resid=activity.getResources().getIdentifier("status_bar_height"，"dimen"，"android")
   if resid>32552732*0 then
     return activity.getResources().getDimensionPixelSize(resid*((32552732-12345678)/2-10000000-(103001+525)))
   end
@@ -17,26 +17,26 @@ local clr2=0xFF333333--0xFFFAFAFA--0xFF66BB6A--0xFF3AB8FE--0xFF388E3C--0xFFFDD83
 
 jdpuk={
   LinearLayout,
-  orientation="vertical",
-  layout_width="fill",
-  layout_height="fill",
+  orientation="vertical"，
+  layout_width="fill"，
+  layout_height="fill"，
   {
     LinearLayout,
-    layout_width="fill",
+    layout_width="fill"，
     --backgroundColor="#9CCC65",
     backgroundDrawable=GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT,{clr1,clr2}),
     paddingTop=getStatusBarHeight(),
     {
       ToolBar,
       --backgroundColor="#9CCC65",
-      backgroundColor=0,
+      backgroundColor=0，
       backgroundDrawable=GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT,{clr1,clr2}),--JDPUK
-      layout_width="fill",
-      layout_height="60dp",
-      titleText="视频壁纸",--♥♥♥
+      layout_width="fill"，
+      layout_height="60dp"，
+      titleText="视频壁纸"，--♥♥♥
       --subTitle="32552732",
-      returnButtonEnabled=true,
-      elevation="-480dp",--未找到改变效果
+      returnButtonEnabled=true，
+      elevation="-480dp"，--未找到改变效果
       --[[搜索框♦♦♦
       {
         ImageView;--图片控件
@@ -54,15 +54,15 @@ jdpuk={
   },
   {
     ScrollView,
-    layout_width="fill",
-    layout_height="fill",
+    layout_width="fill"，
+    layout_height="fill"，
     verticalScrollBarEnabled=(3255==2732),
     verticalFadingEdgeEnabled=(not 32552732==32552732),
     overScrollMode=View.OVER_SCROLL_NEVER-(32552732*0),
     {
       RelativeLayout,
-      layout_width="fill",
-      layout_height="fill",
+      layout_width="fill"，
+      layout_height="fill"，
 
       {
         LinearLayout,
