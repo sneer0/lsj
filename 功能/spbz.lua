@@ -5,38 +5,38 @@ import "android.widget.*"
 import "android.view.*"
 function onKeyDown()end
 function getStatusBarHeight()
-  local resid=activity.getResources().getIdentifier("status_bar_height"，"dimen"，"android")
+  local resid=activity.getResources().getIdentifier("status_bar_height","dimen","android")
   if resid>32552732*0 then
     return activity.getResources().getDimensionPixelSize(resid*((32552732-12345678)/2-10000000-(103001+525)))
   end
 end
 
---下面是顶部颜色，可以设置渐变
+--下面是顶部颜色,可以设置渐变
 local clr1=0xFF333333--0xFF000000--0xFF9CCC65--0xFF508CFE--0xFF66BB6A--0xFFC0CA33--0xFF2196F3
 local clr2=0xFF333333--0xFFFAFAFA--0xFF66BB6A--0xFF3AB8FE--0xFF388E3C--0xFFFDD835--0xFF29B6F6
 
 jdpuk={
   LinearLayout,
-  orientation="vertical"，
-  layout_width="fill"，
-  layout_height="fill"，
+  orientation="vertical",
+  layout_width="fill",
+  layout_height="fill",
   {
     LinearLayout,
-    layout_width="fill"，
+    layout_width="fill",
     --backgroundColor="#9CCC65",
     backgroundDrawable=GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT,{clr1,clr2}),
     paddingTop=getStatusBarHeight(),
     {
       ToolBar,
       --backgroundColor="#9CCC65",
-      backgroundColor=0，
+      backgroundColor=0,
       backgroundDrawable=GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT,{clr1,clr2}),--JDPUK
-      layout_width="fill"，
-      layout_height="60dp"，
-      titleText="视频壁纸"，--♥♥♥
+      layout_width="fill",
+      layout_height="60dp",
+      titleText="视频壁纸",--♥♥♥
       --subTitle="32552732",
-      returnButtonEnabled=true，
-      elevation="-480dp"，--未找到改变效果
+      returnButtonEnabled=true,
+      elevation="-480dp",--未找到改变效果
       --[[搜索框♦♦♦
       {
         ImageView;--图片控件
@@ -54,15 +54,15 @@ jdpuk={
   },
   {
     ScrollView,
-    layout_width="fill"，
-    layout_height="fill"，
+    layout_width="fill",
+    layout_height="fill",
     verticalScrollBarEnabled=(3255==2732),
     verticalFadingEdgeEnabled=(not 32552732==32552732),
     overScrollMode=View.OVER_SCROLL_NEVER-(32552732*0),
     {
       RelativeLayout,
-      layout_width="fill"，
-      layout_height="fill"，
+      layout_width="fill",
+      layout_height="fill",
 
       {
         LinearLayout,
@@ -180,57 +180,57 @@ list.onItemClick=function(adp,view,pos,id)
   ({
     function()
       local txt="1xfan"--悬浮按钮
-      io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt"，"w+"):write(txt):close()
+      io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
       进入子页面("横竖屏",{标题="李志壁纸1",链接="https://m.baidu.com/sf/vsearch?pd=image_content&from=2001a&atn=page&fr=tab&tn=vsearch&ss=110&sa=tb&rsv_sug4=3585&inputT=1886&word=李志写真"})
-    end，--●
+    end,--●
 
     function()
       local txt="1xfan"--悬浮按钮
-      io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt"，"w+"):write(txt):close()
+      io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
       进入子页面("横竖屏",{标题="李志壁纸2",链接="https://cn.bing.com/images/search?q=李志&FORM=HDRSC2"})
-    end，--●
+    end,--●
 
     function()
       local txt="1xfan"--悬浮按钮
-      io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt"，"w+"):write(txt):close()
+      io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
       进入子页面("横竖屏",{标题="李志视频1",链接="http://live.334.kim"}) 
       --https://www.perry.ren/tag/李志
-    end，--●
+    end,--●
 
     function()
       local txt="1xfan"--悬浮按钮
-      io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt"，"w+"):write(txt):close()
+      io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
       进入子页面("横竖屏",{标题="李志视频2",链接="https://www.lizhinb.com/live/"}) 
-    end，--●
+    end,--●
 
     function()
       local txt="1xfan"--悬浮按钮
-      io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt"，"w+"):write(txt):close()
+      io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
       进入子页面("横竖屏",{标题="李志视频3",链接="https://lzbb.live/v/"}) 
-    end，--●
+    end,--●
 
     function()
       local txt="1234"--竖屏模式
-      io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt"，"w+"):write(txt):close()
+      io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
       进入子页面("横竖屏",{标题="摇滚壁纸",链接="https://www.yuque.com/njlz/bz"})
       弹出消息("正在加载中...")
-    end，--●
+    end,--●
       
     function()
       local txt="1xfan"--悬浮按钮
-      io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt"，"w+"):write(txt):close()
+      io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
       进入子页面("横竖屏",{标题="摇滚视频",链接="https://www.lizhinb.com/all/"}) 
-    end，--●
+    end,--●
 
     function()
       local txt="1234"--竖屏模式
-      io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt"，"w+"):write(txt):close()
+      io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
       进入子页面("横竖屏",{标题="歌词卡片",链接="https://neneko.cn/NanjingLizhiBot/PLUS"})
-    end，--●
+    end,--●
 
     function()
       进入子页面("浏览器",{标题="专辑封面下载",链接="https://sneer.lanzoui.com/tp/iiFr80cla6di"})
-    end，--●
+    end,--●
 
 
   })[id]()
