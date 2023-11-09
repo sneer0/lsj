@@ -1,4 +1,0 @@
-【文字颜色】style.css
-标题颜色app-slogan
-文字颜色app-desc
-超链接颜色text-decoration:none
