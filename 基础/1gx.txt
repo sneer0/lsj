@@ -8,7 +8,7 @@
 
 更新后如有bug，可依次点击【关于应用】-【清除缓存】-【清除数据】
 :END】
-【下载地址】https://lanzoux.com/b06s2z42d【下载地址】
+【下载地址】https://sneer0.github.io/lsj/【下载地址】
 END}
 
 --记得改【更新按钮.lua】♥♥♥
