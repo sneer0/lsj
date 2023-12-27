@@ -1,4 +1,4 @@
---【功能:视频壁纸♥♥♥】
+--【视频壁纸♥♥♥】
 
 require"import"
 import "android.widget.*"
