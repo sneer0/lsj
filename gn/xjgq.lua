@@ -672,7 +672,7 @@ end,--结束●
 
 function()--●
 local txt="1zjxz"--专辑下载
-io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
+io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
 进入子页面("横竖屏")
 退出页面()
 end,--结束●
