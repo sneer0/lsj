@@ -662,7 +662,7 @@ end,--●
 function()
 activity.finish()--退出页面
 local txt="lzzj"--李志专辑
-io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
+io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
 进入子页面("横竖屏")
 end,--●
 
@@ -687,5 +687,5 @@ ss.onClick=function()--点击事件
   local txt="ynss"--专辑搜索
   io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
   进入子页面("横竖屏",{标题="李志专辑搜索",链接=("https://sneer0.github.io/lsj/wy/lzss")})
-  弹出消息("点击右上角🔍按钮搜索")
+  弹出消息("点击右侧🔍按钮搜索")
 end--●搜索按钮●
