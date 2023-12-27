@@ -120,11 +120,6 @@ adpd={
   },
   {
     text={
-      text="李志视频³",--●
-    },
-  },
-  {
-    text={
       text="摇滚壁纸",--●
     },
   },
@@ -193,20 +188,13 @@ list.onItemClick=function(adp,view,pos,id)
     function()
       local txt="1xfan"--悬浮按钮
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
-      进入子页面("横竖屏",{标题="李志视频1",链接="http://live.334.kim"}) 
-      --https://www.perry.ren/tag/李志
+      进入子页面("横竖屏",{标题="李志视频1",链接="http://live.334.kim"})
     end,--●
 
     function()
       local txt="1xfan"--悬浮按钮
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("横竖屏",{标题="李志视频2",链接="https://www.lizhinb.com/live/"}) 
-    end,--●
-
-    function()
-      local txt="1xfan"--悬浮按钮
-      io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
-      进入子页面("横竖屏",{标题="李志视频3",链接="https://lzbb.live/v/"}) 
     end,--●
 
     function()
