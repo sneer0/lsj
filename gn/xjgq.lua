@@ -433,6 +433,8 @@ AlertDialog.Builder(this)
 --.setTitle("无标题")
 .setItems(items,{onClick=function(l,v) 
 if items[v+1]=="\n【求歌】在歌友社区[求资源]话题下，留言你要找的歌曲信息，静待有缘人回复，需要每天留意社区动态。\n" then
+local txt="0"
+io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
 进入子页面("横竖屏",{标题="歌友社区",链接="https://txc.qq.com/embed/phone/191061/topic-detail/1696#label=newest"})
 end 
 if items[v+1]=="【投稿】加入投稿QQ群，发送歌曲到群内；或直接在APP内上传歌曲(1次只能上传1个文件,歌多建议用压缩包)\n" then
