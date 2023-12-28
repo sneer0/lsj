@@ -375,253 +375,253 @@ list.onItemClick=function(adp,view,pos,id)
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="01《未分类》",链接="https://lanzoui.com/b06uiwd2h"}) 
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="02《醉人》",链接="https://lanzoui.com/b06uiwd3i"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="03《MC HotDog》",链接="https://lanzoui.com/b06uiwdkf"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="04《小艾 EYE》",链接="https://lanzoui.com/b06uiwdlg"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="05《谢帝》",链接="https://lanzoui.com/b06uiwdmh"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="06《阴三儿 in3》",链接="https://lanzoui.com/b06uiwdni"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="07《小老虎》",链接="https://lanzoui.com/b06uiwdoj"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="08《西奥 Dirty Sio》",链接="https://lanzoui.com/b06uiwdpa"}) 
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="09《汀洋 FK Moses》",链接="https://lanzoui.com/b06uiwdqb"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="10《派克特 PACT》",链接="https://lanzoui.com/b06uiwdrc"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="11《刘柄鑫》",链接="https://lanzoui.com/b06uiwdsd"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="12《姜云升》",链接="https://lanzoui.com/b06uiwdte"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="13《黄旭》",链接="https://lanzoui.com/b06uiwduf"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="14《红花会》",链接="https://lanzoui.com/b06uiwdvg"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="15《狠毒男孩》",链接="https://lanzoui.com/b06uiwdxi"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="16《凤凰鸣》",链接="https://lanzoui.com/b06uiwdyj"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="17《费尼克斯》",链接="https://lanzoui.com/b06uiwdza"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="18《丁飞》",链接="https://lanzoui.com/b06uiwe1c"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="19《蛋堡 Soft Lipa》",链接="https://lanzoui.com/b06uiwe2d"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="20《弹壳 K9999》",链接="https://lanzoui.com/b06uiwe3e"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="21《贝贝》",链接="https://lanzoui.com/b06uiwe4f"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="22《艾福杰尼》",链接="https://lanzoui.com/b06uiwe5g"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="23《啊之》",链接="https://lanzoui.com/b06uiwe7i"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="24《Young Mai》",链接="https://lanzoui.com/b06uiweab"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="25《Sup Music》",链接="https://lanzoui.com/b06uiwebc"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="26《Sting Bee》",链接="https://lanzoui.com/b06uiwecd"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="27《PG One》",链接="https://lanzoui.com/b06uiwede"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="28《Pace Mak1r》",链接="https://lanzoui.com/b06uiweef"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="29《Kigga》",链接="https://lanzoui.com/b06uiwefg"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="30《L4WUDU》",链接="https://lanzoui.com/b06uiwegh"}) 
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="31《DP》",链接="https://lanzoui.com/b06uiwehi"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="32《Chyna Apple》",链接="https://lanzoui.com/b06uiweij"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="33《Buzzy RanGo》",链接="https://lanzoui.com/b06uiweja"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="34《小白 BrAnTB》",链接="https://lanzoui.com/b06uiwekb"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="35《Ali》",链接="https://lanzoui.com/b06uiwelc"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="36《GAI》",链接="https://lanzoui.com/b06uiwemd"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="37《光光&沉珂》",链接="https://lanzoui.com/b06uiwene"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="38《马思唯》",链接="https://lanzoui.com/b06uiweof"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="39《宋岳庭》",链接="https://lanzoui.com/b06uiwepg"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="40《幼稚园杀手》",链接="https://lanzoui.com/b06uiweqh"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="41《黄硕》",链接="https://lanzoui.com/b06uiweri"})
     end,--●
 
     function()
-      local txt="0"--正常模式
+      local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="42《富裕年轻组》",链接="https://lanzoui.com/b06uiwesj"})
     end,--●
