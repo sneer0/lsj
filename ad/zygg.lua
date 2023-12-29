@@ -1,33 +1,33 @@
 {广告:
-【图A】https://txc.gtimg.com/data/292760/2023/1229/7a8611cca2a7cedd776191ba30579cf2.jpeg【END】
-【标A】安吉冬笋鲜脆爽口【END】
+【图A】【END】
+【标A】【END】
 【链A】https://sneer0.github.io/lsj【END】
 
-【图B】https://txc.gtimg.com/data/292760/2023/1230/29357f16c5d975f7efe05e7f87cd10f6.jpeg【END】
-【标B】安吉白茶明前醇香新茶【END】
+【图B】【END】
+【标B】【END】
 【链B】【END】
 
-【图C】https://txc.gtimg.com/data/292760/2023/1229/7a8611cca2a7cedd776191ba30579cf2.jpeg【END】
-【标C】来了来了来了【END】
+【图C】【END】
+【标C】【END】
 【链C】【END】
 
-【图D】https://txc.gtimg.com/data/292760/2023/1230/29357f16c5d975f7efe05e7f87cd10f6.jpeg【END】
-【标D】哈哈哈哈哈哈哈哈哈【END】
+【图D】【END】
+【标D】【END】
 【链D】【END】
 
-【图E】https://txc.gtimg.com/data/292760/2023/1230/29357f16c5d975f7efe05e7f87cd10f6.jpeg【END】
-【标E】哈哈哈哈哈哈哈哈哈【END】
+【图E】【END】
+【标E】【END】
 【链E】【END】
 
-【图F】https://txc.gtimg.com/data/292760/2023/1229/7a8611cca2a7cedd776191ba30579cf2.jpeg【END】
-【标F】来了来了来了【END】
+【图F】【END】
+【标F】【END】
 【链F】【END】
 
-【图G】https://txc.gtimg.com/data/292760/2023/1230/29357f16c5d975f7efe05e7f87cd10f6.jpeg【END】
-【标G】哈哈哈哈哈哈哈哈哈【END】
+【图G】【END】
+【标G】【END】
 【链G】【END】
 
-【图H】https://txc.gtimg.com/data/292760/2023/1229/7a8611cca2a7cedd776191ba30579cf2.jpeg【END】
-【标H】来了来了来了【END】
+【图H】【END】
+【标H】【END】
 【链H】【END】
 :广告}
