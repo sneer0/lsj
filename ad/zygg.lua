@@ -1,5 +1,10 @@
 {广告:
-【密码开关】开【END】
-【密码验证】9739【END】
-【密码内容】当前版本已失效，请更新最新版本。更新方法：❶扫码关注微信公众号：轻佻。❷对公众号发送暗号：更新。【END】
+【主图A】https://txc.gtimg.com/data/292760/2023/1230/29357f16c5d975f7efe05e7f87cd10f6.jpeg【END】
+【标题A】https://txc.gtimg.com/data/292760/2023/1229/7a8611cca2a7cedd776191ba30579cf2.jpeg【END】
+【主图B】https://txc.gtimg.com/data/292760/2023/1230/29357f16c5d975f7efe05e7f87cd10f6.jpeg【END】
+【标题B】https://txc.gtimg.com/data/292760/2023/1229/7a8611cca2a7cedd776191ba30579cf2.jpeg【END】
+【主图C】https://txc.gtimg.com/data/292760/2023/1230/29357f16c5d975f7efe05e7f87cd10f6.jpeg【END】
+【标题C】https://txc.gtimg.com/data/292760/2023/1229/7a8611cca2a7cedd776191ba30579cf2.jpeg【END】
+【主图D】https://txc.gtimg.com/data/292760/2023/1230/29357f16c5d975f7efe05e7f87cd10f6.jpeg【END】
+【标题D】https://txc.gtimg.com/data/292760/2023/1229/7a8611cca2a7cedd776191ba30579cf2.jpeg【END】
 :广告}
