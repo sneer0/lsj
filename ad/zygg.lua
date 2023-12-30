@@ -8,9 +8,9 @@
 【链B】https://support.qq.com/embed/phone/191061/post/167590878049724631【END】
 【图B】https://txc.gtimg.com/data/191061/2023/0209/d84a2392ba9b3d9a559dca9ba163bc96.jpeg【END】
 左方
-【标C】太尼玛爽了！！【END】
-【链C】https://txc.qq.com/embed/phone/191061/post/166736648157882382【END】
-【图C】https://txc.gtimg.com/data/191061/2022/1102/f7fb86f0a7e60c5c50a7d5fc4847f6cf.jpeg【END】
+【标C】纪念那一天【END】
+【链C】https://txc.qq.com/embed/phone/191061/post/160672688210000024【END】
+【图C】https://txc.gtimg.com/data/191061/2020/1130/b994dd2adbdab25076fa83012257733d.jpeg【END】
 左长
 【标D】【END】
 【链D】https://support.qq.com/products/374133/faqs-more?id=138837【END】
