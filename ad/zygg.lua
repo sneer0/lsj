@@ -9,11 +9,11 @@
 【图B】https://txc.gtimg.com/data/191061/2023/0209/d84a2392ba9b3d9a559dca9ba163bc96.jpeg【END】
 左方
 【标C】【END】
-【链C】https://shop221504625.taobao.com【END】
+【链C】https://support.qq.com/products/374133/faqs-more?id=138837【END】
 【图C】【END】
 左长
 【标D】【END】
-【链D】https://shop221504625.taobao.com【END】
+【链D】https://support.qq.com/products/374133/faqs-more?id=138837【END】
 【图D】【END】
 右长
 【标E】我爱南京但可能要离开【END】
@@ -25,10 +25,10 @@
 【图F】https://txc.gtimg.com/data/191061/2023/0226/825767a4102203add3b5f78079459bf1.jpeg【END】
 右长
 【标G】【END】
-【链G】https://shop221504625.taobao.com【END】
+【链G】https://support.qq.com/products/374133/faqs-more?id=138837【END】
 【图G】【END】
 右方
 【标H】【END】
-【链H】https://shop221504625.taobao.com【END】
+【链H】https://support.qq.com/products/374133/faqs-more?id=138837【END】
 【图H】【END】
 :广告}
