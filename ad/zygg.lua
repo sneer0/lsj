@@ -3,9 +3,9 @@
 【标A】森林绿低帮透气滑板鞋【END】
 【链A】https://shop221504625.taobao.com【END】
 
-【图B】【END】
-【标B】【END】
-【链B】https://shop221504625.taobao.comhttps://shop221504625.taobao.com【END】
+【图B】https://txc.gtimg.com/data/191061/2023/0209/d84a2392ba9b3d9a559dca9ba163bc96.jpeg【END】
+【标B】路过郑州的第七年【END】
+【链B】https://support.qq.com/embed/phone/191061/post/167590878049724631/【END】
 
 【图C】【END】
 【标C】【END】
@@ -16,7 +16,7 @@
 【链D】https://shop221504625.taobao.com【END】
 
 【图E】https://txc.gtimg.com/data/191061/2023/0328/09c15bbbedb1884488ad5108fe53ed8a.jpeg【END】
-【标E】我爱南京【END】
+【标E】我爱南京但可能要离开【END】
 【链E】https://support.qq.com/embed/phone/191061/post/167998251555379661/【END】
 
 【图F】【END】
