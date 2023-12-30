@@ -20,12 +20,12 @@ webView.clearCache(true)--清除缓存♥
 .设置积极按钮("浏览器更新",function()
   import "android.content.Intent"
   import "android.net.Uri"
-  url="https://sneer.lanzoux.com/b06s2z42d"
+  url="https://github.com/sneer0/lsj/releases/tag/apk"
   viewIntent = Intent("android.intent.action.VIEW",Uri.parse(url))
   activity.startActivity(viewIntent)
 end)
 .设置中立按钮("软件内更新",function()
-  进入子页面("浏览器",{标题="最新版本APP【请更新】",链接="https://sneer.lanzoui.com/b06s2z42d"})
+  进入子页面("浏览器",{标题="最新版本APP【请更新】",链接="https://sneer0.github.io/lsj"})
 end)
 .显示()
 
