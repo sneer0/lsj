@@ -1,6 +1,6 @@
 {广告:
-【图A】【END】
-【标A】【END】
+【图A】https://img.alicdn.com/imgextra/i3/2207909948089/O1CN016Wh8TR29cod6CLPKi_!!2207909948089.jpg【END】
+【标A】小众森林绿色低帮男女鞋透气夏季新款百搭情侣运动休闲专业滑板鞋【END】
 【链A】https://shop221504625.taobao.com【END】
 
 【图B】【END】
