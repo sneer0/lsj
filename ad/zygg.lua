@@ -5,7 +5,7 @@
 【图A】https://img.alicdn.com/imgextra/i3/2207909948089/O1CN016Wh8TR29cod6CLPKi_!!2207909948089.jpg【END】
 左长
 【标B】路过郑州的第七年【END】
-【链B】https://support.qq.com/embed/phone/191061/post/167590878049724631【END】
+【链B】https://txc.qq.com/embed/phone/191061/post/167590878049724631【END】
 【图B】https://txc.gtimg.com/data/191061/2023/0209/d84a2392ba9b3d9a559dca9ba163bc96.jpeg【END】
 左方
 【标C】纪念那一天【END】
@@ -13,11 +13,11 @@
 【图C】https://txc.gtimg.com/data/191061/2020/1130/b994dd2adbdab25076fa83012257733d.jpeg【END】
 左长
 【标D】【END】
-【链D】https://support.qq.com/products/374133/faqs-more?id=138837【END】
+【链D】https://txc.qq.com/products/374133/faqs-more?id=138837【END】
 【图D】【END】
 右长
 【标E】我爱南京 但准备离开【END】
-【链E】https://support.qq.com/embed/phone/191061/post/167998251555379661【END】
+【链E】https://txc.qq.com/embed/phone/191061/post/167998251555379661【END】
 【图E】https://txc.gtimg.com/data/191061/2023/0328/09c15bbbedb1884488ad5108fe53ed8a.jpeg【END】
 右方
 【标F】这个世界会好吗？【END】
@@ -29,6 +29,6 @@
 【图G】https://txc.gtimg.com/data/191061/2021/0705/c98c67eee8c5375cf6741a1f25af480c.jpeg【END】
 右方
 【标H】【END】
-【链H】https://support.qq.com/products/374133/faqs-more?id=138837【END】
+【链H】https://txc.qq.com/products/374133/faqs-more?id=138837【END】
 【图H】【END】
 :广告}
