@@ -150,7 +150,7 @@ list.Adapter=adapter
 list.onItemClick=function(adp,view,pos,id)
   ({
     function()
-      local txt="1xfan"--悬浮按钮
+      local txt="0"--正常模式
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="李志壁纸1",链接="https://m.baidu.com/sf/vsearch?pd=image_content&from=2001a&atn=page&fr=tab&tn=vsearch&ss=110&sa=tb&rsv_sug4=3585&inputT=1886&word=李志写真"})
     end,--●
@@ -162,13 +162,13 @@ list.onItemClick=function(adp,view,pos,id)
     end,--●
 
     function()
-      local txt="1xfan"--悬浮按钮
+      local txt="0"--正常模式
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="李志视频1",链接="http://live.334.kim"})
     end,--●
 
     function()
-      local txt="1xfan"--悬浮按钮
+      local txt="0"--正常模式
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="李志视频2",链接="https://www.lizhinb.com/live/"}) 
     end,--●
@@ -181,7 +181,7 @@ list.onItemClick=function(adp,view,pos,id)
     end,--●
 
     function()
-      local txt="1xfan"--悬浮按钮
+      local txt="0"--正常模式
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="摇滚视频",链接="https://www.lizhinb.com/all/"}) 
     end,--●
