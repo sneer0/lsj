@@ -12,9 +12,9 @@
 【链C】https://txc.qq.com/embed/phone/191061/post/160672688210000024【END】
 【图C】https://txc.gtimg.com/data/191061/2020/1130/b994dd2adbdab25076fa83012257733d.jpeg【END】
 左长
-【标D】【END】
-【链D】https://txc.qq.com/products/374133/faqs-more?id=138837【END】
-【图D】【END】
+【标D】现在的热河路【END】
+【链D】https://support.qq.com/embed/phone/191061/post/160989650559259217【END】
+【图D】https://txc.gtimg.com/data/191061/2021/0106/c3a5d71268fd1c96ef49b96a69b39348.jpeg【END】
 右长
 【标E】我爱南京 但准备离开【END】
 【链E】https://txc.qq.com/embed/phone/191061/post/167998251555379661【END】
@@ -28,7 +28,7 @@
 【链G】https://txc.qq.com/embed/phone/191061/post/162545265589119731【END】
 【图G】https://txc.gtimg.com/data/191061/2021/0705/c98c67eee8c5375cf6741a1f25af480c.jpeg【END】
 右方
-【标H】【END】
-【链H】https://txc.qq.com/products/374133/faqs-more?id=138837【END】
-【图H】【END】
+【标H】专辑拼图【END】
+【链H】https://support.qq.com/embed/phone/191061/post/160550952110000093【END】
+【图H】https://txc.gtimg.com/data/191061/2020/1116/f92f5f5d897bc5289239bfe62731eb32.jpeg【END】
 :广告}
