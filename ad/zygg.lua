@@ -30,5 +30,5 @@
 右方
 【标H】专辑拼图【END】
 【链H】https://support.qq.com/embed/phone/191061/post/160550952110000093【END】
-【图H】https://txc.gtimg.com/data/191061/2020/1116/f92f5f5d897bc5289239bfe62731eb32.jpeg【END】
+【图H】https://txc.gtimg.com/data/191061/2023/1231/f7bac0184d6bddb90085d13674d87234.jpeg【END】
 :广告}
