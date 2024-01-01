@@ -800,5 +800,5 @@ end
 ss.onClick=function()--点击事件
   local txt="ynss"--页内搜索
   io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
-  进入子页面("调用",{标题="李志专辑搜索",链接=("https://sneer0.github.io/lsj/wy/lzss")})
+  进入子页面("调用",{标题="下架歌曲搜索",链接=("https://sneer0.github.io/lsj/wy/xjss")})
 end--●搜索按钮●
