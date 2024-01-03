@@ -771,7 +771,7 @@ list.onItemClick=function(adp,view,pos,id)
       activity.finish()--退出页面
       local txt="lzzj"--李志专辑
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
-      进入子页面("横竖屏")
+      进入子页面("调用")
     end,--●
 
     function()
