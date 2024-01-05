@@ -193,7 +193,7 @@ list.onItemClick=function(adp,view,pos,id)
     end,--●
 
     function()
-      进入子页面("浏览器",{标题="专辑封面下载",链接="https://sneer.lanzoui.com/tp/iiFr80cla6di"})
+      进入子页面("浏览器",{标题="专辑封面下载",链接="https://lanzoui.com/tp/iiFr80cla6di"})
     end,--●
 
 
