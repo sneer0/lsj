@@ -181,8 +181,6 @@ list.onItemClick=function(adp,view,pos,id)
     end,--●
 
     function()
-      local txt="0"--正常模式
-      io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("浏览器",{标题="摇滚视频",链接="https://www.lizhinb.com/all/"}) 
     end,--●
 
