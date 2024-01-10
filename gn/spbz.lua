@@ -156,7 +156,7 @@ list.onItemClick=function(adp,view,pos,id)
     end,--●
 
     function()
-      local txt="1xfan"--悬浮按钮
+      local txt="0"--正常模式
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="李志壁纸2",链接="https://cn.bing.com/images/search?q=李志&FORM=HDRSC2"})
     end,--●
@@ -174,14 +174,14 @@ list.onItemClick=function(adp,view,pos,id)
     end,--●
 
     function()
-      local txt="0"--正常模式
-      io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
-      进入子页面("调用",{标题="摇滚壁纸",链接="https://www.yuque.com/njlz/bz"})
-      弹出消息("正在加载中...")
+      进入子页面("浏览器",{标题="摇滚壁纸",链接="https://www.yuque.com/njlz/bz"})
+      弹出消息("加载中...")
     end,--●
 
     function()
-      进入子页面("浏览器",{标题="摇滚视频",链接="https://www.lizhinb.com/all/"}) 
+      local txt="0"--正常模式
+      io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
+      进入子页面("调用",{标题="摇滚视频",链接="https://www.lizhinb.com/all/"}) 
     end,--●
 
     function()
