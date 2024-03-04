@@ -12,7 +12,7 @@
 【通知开关】开【END】
 【通知标题】留声机社区【END】
 【通知内容】让热爱音乐的人相遇~【END】
-【通知网址】https://support.qq.com/products/191061【END】
+【通知网址】https://txc.qq.com/products/191061【END】
 :通知}
 
 
