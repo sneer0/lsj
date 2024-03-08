@@ -6,7 +6,7 @@
 左长
 【标B】游戏代练陪玩【END】
 【链B】https://shop181168033.m.taobao.com【END】
-【图B】https://txc.gtimg.com/data/292760/2024/0308/54640641c5d4a009161a2ba39bb6ac2c.jpeg【END】
+【图B】https://txc.gtimg.com/data/292760/2024/0308/7b5e5d8f4c815487f83d57bbd724acf5.jpeg【END】
 左方
 【标C】纪念那一天【END】
 【链C】https://txc.qq.com/embed/phone/191061/post/160672688210000024【END】
