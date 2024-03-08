@@ -1,8 +1,8 @@
 {广告:
 左方
-【标A】森林绿低帮透气滑板鞋【END】
-【链A】https://shop221504625.taobao.com【END】
-【图A】https://img.alicdn.com/imgextra/i3/2207909948089/O1CN016Wh8TR29cod6CLPKi_!!2207909948089.jpg【END】
+【标A】这次你离开了没有像以前那样说再见【END】
+【链A】https://txc.qq.com/products/191061/post/170649812265784191【END】
+【图A】https://txc.gtimg.com/data/191061/2024/0129/38b517406ede2a0dd78ac965e20a0014.jpeg【END】
 左长
 【标B】游戏代练陪玩【END】
 【链B】https://shop181168033.m.taobao.com【END】
