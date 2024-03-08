@@ -5,7 +5,7 @@
 【图A】https://img.alicdn.com/imgextra/i3/2207909948089/O1CN016Wh8TR29cod6CLPKi_!!2207909948089.jpg【END】
 左长
 【标B】游戏代练陪玩【END】
-【链B】https://shop181168033.taobao.com【END】
+【链B】https://shop181168033.m.taobao.com【END】
 【图B】https://txc.gtimg.com/data/292760/2024/0308/54640641c5d4a009161a2ba39bb6ac2c.jpeg【END】
 左方
 【标C】纪念那一天【END】
