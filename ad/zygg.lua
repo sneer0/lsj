@@ -1,8 +1,8 @@
 {广告:
 左方
-【标A】这次你离开了没有像以前那样说再见【END】
-【链A】https://txc.qq.com/products/191061/post/170649812265784191【END】
-【图A】https://txc.gtimg.com/data/191061/2024/0129/38b517406ede2a0dd78ac965e20a0014.jpeg【END】
+【标A】这个世界会好吗【END】
+【链A】https://txc.qq.com/embed/phone/191061/post/167734398518361434【END】
+【图A】https://txc.gtimg.com/data/191061/2023/0226/825767a4102203add3b5f78079459bf1.jpeg【END】
 左长
 【标B】游戏代练陪玩【END】
 【链B】https://shop181168033.m.taobao.com【END】
@@ -20,9 +20,9 @@
 【链E】https://txc.qq.com/embed/phone/191061/post/167998251555379661【END】
 【图E】https://txc.gtimg.com/data/191061/2023/0328/09c15bbbedb1884488ad5108fe53ed8a.jpeg【END】
 右方
-【标F】这个世界会好吗【END】
-【链F】https://txc.qq.com/embed/phone/191061/post/167734398518361434【END】
-【图F】https://txc.gtimg.com/data/191061/2023/0226/825767a4102203add3b5f78079459bf1.jpeg【END】
+【标F】这次你离开了没有像以前那样说再见【END】
+【链F】https://txc.qq.com/products/191061/post/170649812265784191【END】
+【图F】https://txc.gtimg.com/data/191061/2024/0129/38b517406ede2a0dd78ac965e20a0014.jpeg【END】
 右长
 【标G】东北姑娘找搭子【END】
 【链G】https://txc.qq.com/embed/phone/191061/post/170685136816592571【END】
