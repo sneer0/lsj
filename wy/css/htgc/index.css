@@ -1,0 +1,262 @@
+html {
+    margin: 0;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+.toolbar-top {
+    background-color: transparent !important;
+}
+
+.downloadBtnsGroup {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+.hero {
+    background: url(resources/banner-4.svg) no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.hero .mdui-col {
+    padding: 8px;
+}
+
+.hero>div {
+    padding: 16px 16px;
+}
+
+.app-title {
+    font-weight: 400;
+}
+
+
+.device {
+    max-width: 290px;
+    margin: auto;
+    width: 100%;
+    border: 6px solid #252629;
+    /* border: 6px solid #fff; */
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    aspect-ratio: 0.47;
+}
+
+.device .screen {
+    width: 100%;
+    display: block;
+}
+
+.device::before {
+    content: "";
+    background-color: #252629;
+    height: 16px;
+    width: 16px;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 8px;
+}
+
+.title {
+    color: var(--mdui-color-primary);
+}
+
+.subTitle {
+    font-size: 1rem;
+}
+
+.imgIcon {
+    width: 24px;
+    height: 24px;
+}
+
+.bigIcon {
+    font-size: 56px;
+}
+
+.featureContent {
+    font-size: medium;
+}
+
+/* 插画 */
+.illustration {
+    width: 100%;
+    max-width: 400px;
+    padding: 16px;
+}
+
+#features .mdui-card {
+    min-height: 280px;
+}
+
+.features-items {
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+/* #introduce {
+    background: url(resources/service-bg.svg) no-repeat;
+    background-size: contain;
+} */
+
+/* 
+
+
+#testimonials {
+    background: url(resources/testimonials-bg.png) no-repeat;
+    background-size: 40% 100%;
+    background-position: left center;
+} */
+
+.user-comments {
+    columns: 1;
+    column-gap: 32px;
+}
+
+.services-cards {
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+
+.user-card {
+    max-width: 640px;
+    margin: 16px auto;
+    padding-top: 40px;
+    text-align: center;
+    break-inside: avoid;
+}
+
+.user-card .mdui-card {
+    overflow: visible;
+    padding: 24px;
+    padding-top: 32px;
+}
+
+.user-avatar {
+    position: absolute;
+    top: 0;
+    margin-left: -36px;
+    margin-top: -36px;
+    display: inline-block;
+    /* 4px */
+    /* filter: drop-shadow(0 0.5px 4px var(--mdui-color-shadow-key-umbra)) drop-shadow(0 1px 5px var(--mdui-color-shadow-key-penumbra)) drop-shadow(0 0.5px 10px var(--mdui-color-shadow-ambient-shadow)); */
+}
+
+.user-avatar img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    box-shadow: var(--mdui-shadow-4);
+    background-color: white;
+}
+
+/* 用户头像右下角图标 */
+.user-avatar::after {
+    content: '\e253';
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #4477e0;
+    border: 3px solid white;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-family: 'Material Icons';
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    line-height: 27px;
+    font-size: .5rem;
+    box-shadow: var(--mdui-shadow-4);
+}
+
+.user-name {
+    margin: 8px 0;
+    font-size: 1rem;
+}
+
+.user-message {
+    display: block;
+    margin: 16px 0;
+}
+
+.user-description {
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+img.footer-title {
+    height: 24px;
+}
+
+
+.svgi::before {
+	width: 24px;
+	content: '';
+	background-color: currentColor;
+    vertical-align: middle;
+}
+
+.svgi.svgi-gitee::before {
+	height: 24px;
+	-webkit-mask-image: url(resources/gitee-fill-round.svg);
+	mask-image: url(resources/gitee-fill-round.svg);
+}
+
+.svgi.svgi-coolapk::before {
+	height: 13px;
+	-webkit-mask-image: url(resources/coolapk.svg);
+	mask-image: url(resources/coolapk.svg);
+	/* margin-bottom: 2px; */
+}
+
+.svgi.svgi-appchina::before {
+	height: 13px;
+	-webkit-mask-image: url(resources/appchina.png);
+	mask-image: url(resources/appchina.png);
+	/* margin-bottom: 2px; */
+}
+
+@media screen and (min-width:600px) {
+    .hero>div {
+        padding: 56px 56px;
+    }
+
+    .user-comments{
+        columns: 2;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    .user-comments {
+        columns: 3;
+    }
+}
+
+/* @media screen and (min-width:1920px) {
+    .user-comments {
+        columns: 4;
+    }
+} */
+
+@media (prefers-color-scheme: dark) {
+    .device {
+        border-color: #fefefe;
+    }
+
+}

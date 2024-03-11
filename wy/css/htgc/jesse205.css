@@ -1,0 +1,84 @@
+@import url(resources/mdui2.css);
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+.mdui-toolbar>.jesse205-toolbar-menusSpace {
+    display: flex;
+}
+
+/* 卡片 */
+
+.jesse205-card-media-covered-dark {
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+.jesse205-card-media-covered-light {
+    color: black;
+    text-shadow: 0 0 5px white;
+}
+
+.jesse205-card-media-covered-auto {
+    color: black;
+    text-shadow: 0 0 5px white;
+}
+
+.jesse205-row-xs-1 .jesse205-col,
+.jesse205-row-sm-2 .jesse205-col,
+.jesse205-row-md-2 .jesse205-col {
+    width: 100%;
+}
+
+.jesse205-row-xs-1,
+.jesse205-row-sm-2,
+.jesse205-row-md-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width:600px) {
+    .jesse205-row-sm-2 .jesse205-col {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .jesse205-row-md-2 .jesse205-col {
+        width: 30%;
+    }
+}
+
+.jesse205-copyrights {
+    text-align: center;
+    margin: 16px;
+}
+
+.jesse205-copyrights p {
+    margin: 0 0 4px;
+}
+
+.jesse25-friend-links {
+    margin: -8px;
+    margin-top: 8px;
+}
+
+.jesse25-friend-links .mdui-col {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.jesse25-friend-links ul {
+    padding-left: 0 !important;
+    list-style: none !important;
+}
+
+.jesse25-friend-links .footer-title {
+    margin: 0 !important;
+    display: block;
+    margin-bottom: 16px !important;
+    font-size: 1.25rem;
+}
