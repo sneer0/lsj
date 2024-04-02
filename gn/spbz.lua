@@ -164,7 +164,7 @@ list.onItemClick=function(adp,view,pos,id)
     function()
       local txt="0"--正常模式
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
-      进入子页面("调用",{标题="李志视频1",链接="http://live.334.kim"})
+      进入子页面("调用",{标题="李志视频1",链接="https://live.334.kim"})
     end,--●
 
     function()
