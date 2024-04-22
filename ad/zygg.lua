@@ -4,9 +4,9 @@
 【链A】https://txc.qq.com/products/191061/post/170649812265784191【END】
 【图A】https://txc.gtimg.com/data/191061/2024/0129/38b517406ede2a0dd78ac965e20a0014.jpeg【END】
 左长
-【标B】游戏代练陪玩【END】
-【链B】https://shop181168033.m.taobao.com【END】
-【图B】https://txc.gtimg.com/data/292760/2024/0308/7b5e5d8f4c815487f83d57bbd724acf5.jpeg【END】
+【标B】正宗安吉白茶【END】
+【链B】https://shop430469427.m.taobao.com【END】
+【图B】https://txc.gtimg.com/data/292760/2024/0422/f0511e906024314af3796a6acf4a6ab1.jpeg【END】
 左方
 【标C】纪念那一天【END】
 【链C】https://txc.qq.com/embed/phone/191061/post/160672688210000024【END】
