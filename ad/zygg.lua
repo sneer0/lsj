@@ -1,8 +1,8 @@
 {广告:
 ●左方
-【标A】这次你离开了没有像以前那样说再见【END】
-【链A】https://txc.qq.com/products/191061/post/170649812265784191【END】
-【图A】https://txc.gtimg.com/data/191061/2024/0129/38b517406ede2a0dd78ac965e20a0014.jpeg【END】
+【标A】快来薅羊毛啦【END】
+【链A】https://ocjxs.yhzu.cn/【END】
+【图A】https://txc.gtimg.com/data/292760/2024/0422/ad1833242f01cd8cf507e05103edc615.jpeg【END】
 ●左长
 【标B】正宗安吉白茶【END】
 【链B】https://shop430469427.m.taobao.com【END】
