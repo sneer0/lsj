@@ -11,7 +11,7 @@
 【标C】纪念那一天【END】
 【链C】https://txc.qq.com/embed/phone/191061/post/160672688210000024【END】
 【图C】https://txc.gtimg.com/data/191061/2020/1130/b994dd2adbdab25076fa83012257733d.jpeg【END】
-左长
+●左长
 【标D】现在的热河路【END】
 【链D】https://support.qq.com/embed/phone/191061/post/160989650559259217【END】
 【图D】https://txc.gtimg.com/data/191061/2021/0106/c3a5d71268fd1c96ef49b96a69b39348.jpeg【END】
