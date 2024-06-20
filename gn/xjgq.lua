@@ -76,7 +76,7 @@ xjgq={
               id="list";
               ListView;
               layout_width="fill";
-              layout_height="3030dp";--高度◆
+              layout_height="3070dp";--高度◆◆◆◆◆◆◆◆◆
               dividerHeight="0dp";--分割线
             };
           };
@@ -381,6 +381,12 @@ adpd={
     {
     text={
       text="58《霍尊》";
+    };
+  },
+    },
+    {
+    text={
+      text="59《耳光乐队》";
     };
   },
 
@@ -801,6 +807,12 @@ list.onItemClick=function(adp,view,pos,id)
       local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="58《霍尊》",链接="https://lanzoui.com/b06ugoyij"})
+    end,--●
+
+    function()
+      local txt="yyxz"--音乐下载
+      io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
+      进入子页面("调用",{标题="59《耳光乐队》",链接="https://lanzoui.com/b06ugoymd"})
     end,--●
 
 
