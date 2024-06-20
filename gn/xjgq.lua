@@ -340,7 +340,7 @@ adpd={
   },
   {
     text={
-      text="50《爱国歌曲》";
+      text="50《红歌》";
     };
   },
   {
@@ -376,6 +376,11 @@ adpd={
   {
     text={
       text="57《张悬》";
+    };
+  },
+    {
+    text={
+      text="58《霍尊》";
     };
   },
 
@@ -746,7 +751,7 @@ list.onItemClick=function(adp,view,pos,id)
     function()
       local txt="yyxz"--音乐下载
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
-      进入子页面("调用",{标题="50《爱国歌曲》",链接="https://lanzoui.com/b06tmchpc"})
+      进入子页面("调用",{标题="50《红歌》",链接="https://lanzoui.com/b06tmchpc"})
     end,--●
 
     function()
@@ -791,6 +796,13 @@ list.onItemClick=function(adp,view,pos,id)
       io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
       进入子页面("调用",{标题="57《张悬》",链接="https://lanzoui.com/b06ugoylc"})
     end,--●
+
+    function()
+      local txt="yyxz"--音乐下载
+      io.open("/storage/emulated/0/Android/data/com.sneer.lsj/hsp.txt","w+"):write(txt):close()
+      进入子页面("调用",{标题="58《霍尊》",链接="https://lanzoui.com/b06ugoyij"})
+    end,--●
+
 
   })[id]()
 end
