@@ -76,7 +76,7 @@ xjgq={
               id="list";
               ListView;
               layout_width="fill";
-              layout_height="3070dp";--高度◆◆◆◆◆◆◆◆◆
+              layout_height="3100dp";--高度◆◆◆◆◆◆◆◆◆
               dividerHeight="0dp";--分割线
             };
           };
