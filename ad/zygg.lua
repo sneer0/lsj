@@ -4,9 +4,9 @@
 【链A】https://shop430469427.m.taobao.com【END】
 【图A】https://txc.gtimg.com/data/292760/2024/0712/2d6e68d46709de8b003add00f6bb1e16.webp【END】
 ●左长
-【标B】正宗安吉白茶【END】
-【链B】https://shop430469427.m.taobao.com【END】
-【图B】https://txc.gtimg.com/data/292760/2024/0422/f0511e906024314af3796a6acf4a6ab1.jpeg【END】
+【标B】落实在行动上【END】
+【链B】https://txc.qq.com/embed/phone/191061/post/160138986182454021【END】
+【图B】https://txc.gtimg.com/data/191061/2020/0929/31a37ba08a3e917050b3ea8203b35a79.webp【END】
 ●左方
 【标C】纪念那一天【END】
 【链C】https://txc.qq.com/embed/phone/191061/post/160672688210000024【END】
