@@ -22,7 +22,7 @@
 ●右方
 【标F】会下雨的生态缸【END】
 【链F】https://shop420102691.m.taobao.com/【END】
-【图F】https://txc.gtimg.com/data/191061/2020/0929/31a37ba08a3e917050b3ea8203b35a79.webp【END】
+【图F】https://txc.gtimg.com/data/292760/2024/0713/a71e8600432e1031ccd5b303357d86f3.webp【END】
 ●右长
 【标G】冲拉萨啦集美们！【END】
 【链G】https://txc.qq.com/products/191061/post/162545265589119731【END】
