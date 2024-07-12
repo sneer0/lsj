@@ -1,8 +1,8 @@
 {广告:
 ●左方
-【标A】快来薅羊毛啦【END】
-【链A】https://ocjxs.yhzu.cn/【END】
-【图A】https://txc.gtimg.com/data/292760/2024/0422/ad1833242f01cd8cf507e05103edc615.jpeg【END】
+【标A】浙里茶社优选好茶【END】
+【链A】https://shop430469427.m.taobao.com【END】
+【图A】https://txc.gtimg.com/data/292760/2024/0712/2d6e68d46709de8b003add00f6bb1e16.webp【END】
 ●左长
 【标B】正宗安吉白茶【END】
 【链B】https://shop430469427.m.taobao.com【END】
