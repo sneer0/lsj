@@ -1,8 +1,8 @@
 {广告:
 ●左方
-【标A】浙里茶社优选好茶【END】
-【链A】https://shop430469427.m.taobao.com【END】
-【图A】https://txc.gtimg.com/data/292760/2024/0712/2d6e68d46709de8b003add00f6bb1e16.webp【END】
+【标A】会下雨的生态缸【END】
+【链A】https://shop420102691.m.taobao.com/【END】
+【图A】https://txc.gtimg.com/data/292760/2024/0713/a71e8600432e1031ccd5b303357d86f3.webp【END】
 ●左长
 【标B】落实在行动上【END】
 【链B】https://txc.qq.com/embed/phone/191061/post/160138986182454021【END】
@@ -20,9 +20,9 @@
 【链E】https://txc.qq.com/embed/phone/191061/post/167998251555379661【END】
 【图E】https://txc.gtimg.com/data/191061/2023/0328/09c15bbbedb1884488ad5108fe53ed8a.webp【END】
 ●右方
-【标F】会下雨的生态缸【END】
-【链F】https://shop420102691.m.taobao.com/【END】
-【图F】https://txc.gtimg.com/data/292760/2024/0713/a71e8600432e1031ccd5b303357d86f3.webp【END】
+【标F】浙里茶社优选好茶【END】
+【链F】https://shop430469427.m.taobao.com【END】
+【图F】https://txc.gtimg.com/data/292760/2024/0712/2d6e68d46709de8b003add00f6bb1e16.webp【END】
 ●右长
 【标G】冲拉萨啦集美们！【END】
 【链G】https://txc.qq.com/products/191061/post/162545265589119731【END】
