@@ -16,7 +16,7 @@
 【链D】https://support.qq.com/embed/phone/191061/post/160989650559259217【END】
 【图D】https://txc.gtimg.com/data/191061/2021/0106/c3a5d71268fd1c96ef49b96a69b39348.webp【END】
 ●右长
-【标E】专辑CD【END】
+【标E】实体专辑CD周边【END】
 【链E】https://txc.qq.com/embed/phone/191061/post/167998251555379661【END】
 【图E】https://txc.gtimg.com/data/292760/2024/0830/d334209b2d5b1ca63f94519b89f7cb4c.webp【END】
 ●右方
