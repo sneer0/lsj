@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+    <title>留声机官网 - 让热爱音乐的人相遇</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="留住消逝的声音，让热爱音乐的人相遇~">
+    <meta name="keywords" content="留声机|留声机官网|留声机APP|李志留声机|李志|听李志软件|听李志APP|李志下载|这个世界会好吗|这个世界会好吗APP|保持理智">
+    <link rel="shortcut icon" href="./fl/dm/img/lsj-logo.svg">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./fl/dm/lsj.css">
+</head>
+
+
+
+<body>
+    <!-- 【导航栏】 -->
+    <div class="w3-top">
+        <div class="w3-bar w3-black w3-card">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="index.html" class="w3-bar-item w3-button w3-padding-large">留声机</a>
+            <a href="./fl/sm/wx-jz.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small" target="_self">捐赠</a>
+            <a href="./fl/jr.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small" target="_self">加入</a>
+        </div>
+    </div>
+    <!-- 【小屏菜单（如果您希望在单击链接时导航栏始终显示在内容顶部，请删除 onclick 属性）】 -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+        <a href="./fl/sm/wx-jz.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">捐赠</a>
+        <a href="./fl/jr.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">加入</a>
+    </div>
+
+
+
+    <!-- 【页面内容】 -->
+<div class="views">
+    <table align="center">
+        <div>
+            <td>
+                <div style=" border-radius:20%; box-shadow: 1px 1px 3px #EDEDED; background-color: white; width: 90px; height: 90px; text-align: center; line-height: 88px;">
+                    <img src="./fl/dm/img/lsj-logo.svg" class="rotating-svg">
+            </td>
+        </div>
+        <td align="left">
+            <p style="font-size:26px; font-weight:bold; line-height:50%; margin-left:10px; margin-top:40px">留声机</p>
+            <div class="button" style="margin-top:-10px; margin-left:10px; "onclick="xzrj()">下载</div>
+            <br>
+        </td>
+    </table>
+    <div align="center" style="width: 150%;">
+        <p style="font-size:14px; margin-top:-10px;">留住消失的声音 让热爱音乐的人相遇</p>
+    </div>
+</div>
+    <!-- 【页面内容】 -->
+
+
+
+
+
+    <script>
+        //【按钮-下载软件】
+        function xzrj() {
+            window.location.href = "https://www.123pan.com/s/3Dxajv-raY9d.html"
+        }
+        //【小屏菜单按钮单击切换】
+        function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+        //【音乐星球】
+      function loadJs(path,callback){var header=document.getElementsByTagName("head")[0];var script=document.createElement('script');script.setAttribute('src',path);header.appendChild(script);if(!/*@cc_on!@*/false){script.onload=function(){callback();}}else{script.onreadystatechange=function(){if(script.readystate=="loaded" ||script.readState=='complate'){callback();}}}}
+      loadJs("https://yyyp.oss-cn-beijing.aliyuncs.com/CDN/Plugins/APlayer/JsHD-APlayer.js",function(){APlayer("artist","netease","51156656","0")});
+        //【艺术油漆】
+      var hm = document.createElement("script");
+      hm.src = "https://yyyp.oss-cn-beijing.aliyuncs.com/CDN/BG/PaintStyleBg/PaintStyleBg.min.js";
+      var s = document.getElementsByTagName("title")[0];
+      s.parentNode.insertBefore(hm, s);
+        //【百度统计】
+      var _hmt = _hmt || []; (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?b48402e9cb2bbc1bfb9ea3b52733bb47";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+
+</body>
+</html>

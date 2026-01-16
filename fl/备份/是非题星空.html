@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>是非题</title>
+    <style>
+        :root {
+            --text-color: #4a90e2;
+            --text-shadow-color: rgba(74, 144, 226, 0.6);
+            --bg-color-start: #000810;
+            --bg-color-end: #001830;
+        }
+
+        body,
+        html {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            background: radial-gradient(ellipse at bottom, var(--bg-color-end) 0%, var(--bg-color-start) 100%);
+            color: var(--text-color);
+            overflow: hidden;
+            position: fixed;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            position: relative;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .stars {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+
+        .star {
+            position: absolute;
+            background: #FFF;
+            border-radius: 50%;
+            opacity: 0;
+            animation: twinkle 5s infinite, move 30s infinite linear;
+        }
+
+        @keyframes twinkle {
+
+            0%,
+            100% {
+                opacity: 0.3;
+            }
+
+            50% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes move {
+            0% {
+                transform: translate(0, 0);
+            }
+
+            100% {
+                transform: translate(100vw, 100vh);
+            }
+        }
+
+        .main-text {
+            font-size: 6vmin;
+            line-height: 1.4;
+            text-align: center;
+            perspective: 1000px;
+        }
+
+        .line {
+            opacity: 0;
+            transform: rotateX(-90deg);
+            transform-origin: top;
+            animation: unfold 1.5s forwards;
+            text-shadow: 0 0 15px var(--text-shadow-color);
+        }
+
+        .line:nth-child(1) {
+            animation-delay: 0.3s;
+        }
+
+        .line:nth-child(2) {
+            animation-delay: 0.6s;
+        }
+
+        .line:nth-child(3) {
+            animation-delay: 0.9s;
+        }
+
+        .line:nth-child(4) {
+            animation-delay: 1.2s;
+        }
+
+        .line:nth-child(5) {
+            animation-delay: 1.5s;
+        }
+
+        .line:nth-child(6) {
+            animation-delay: 1.8s;
+        }
+
+        @keyframes unfold {
+            from {
+                opacity: 0;
+                transform: rotateX(-90deg);
+            }
+
+            to {
+                opacity: 1;
+                transform: rotateX(0);
+            }
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 20px;
+            font-size: 2.5vmin;
+            opacity: 0.7;
+            transition: opacity 0.3s, transform 0.3s;
+        }
+
+        .footer a {
+            color: var(--text-color);
+            text-decoration: none;
+        }
+
+        .footer:hover {
+            opacity: 1;
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            .main-text {
+                font-size: 6vmin;
+            }
+
+            .footer {
+                font-size: 2.5vmin;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .main-text {
+                font-size: 7vmin;
+            }
+
+            .footer {
+                font-size: 4vmin;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="stars" id="stars"></div>
+        <div class="main-text">
+            <div class="line">宇宙，人类最后的边疆</div>
+            <div class="line">这是星舰进取号的航程</div>
+            <div class="line">它继续的任务</div>
+            <div class="line">是去探索未知的新世界</div>
+            <div class="line">找寻新的生命和新的文明</div>
+            <div class="line">勇敢地驶向前人未至之域</div>
+        </div>
+        <div class="footer">
+            <a href="https://beian.miit.gov.cn/" target="_blank">陕ICP备2022005730号-2</a>
+        </div>
+    </div>
+
+    <script>
+        function createStars() {
+            const stars = document.getElementById('stars');
+            const count = 200;
+            for (let i = 0; i < count; i++) {
+                createStar(stars);
+            }
+        }
+
+        function createStar(container) {
+            const star = document.createElement('div');
+            star.className = 'star';
+            resetStar(star);
+            container.appendChild(star);
+
+            star.addEventListener('animationiteration', () => {
+                if (Math.random() < 0.5) {
+                    resetStar(star);
+                }
+            });
+        }
+
+        function resetStar(star) {
+            star.style.left = `${Math.random() * 100}%`;
+            star.style.top = `${Math.random() * 100}%`;
+            star.style.width = `${Math.random() * 2 + 0.5}px`;
+            star.style.height = star.style.width;
+            star.style.animationDelay = `${Math.random() * 5}s`;
+            star.style.animationDuration = `${Math.random() * 3 + 2}s, ${Math.random() * 30 + 15}s`;
+            star.style.opacity = Math.random() * 0.7 + 0.3;
+        }
+
+        createStars();
+    </script>
+</body>
+
+</html>
