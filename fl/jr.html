@@ -1,0 +1,118 @@
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <link crossorigin="" rel="shortcut icon" type="image/x-icon" href="./img/lsj-logo.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" property="og:description" content="留住消逝的声音 让热爱音乐的人相遇">
+    <meta name="keywords" content="留声机|留声机APP|李志|听李志软件|听李志APP">
+
+    <title>加入我们</title>
+    <style data-emotion="css" data-s="">
+        :root {
+            --swiper-theme-color: #007aff
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif
+        }
+
+        .mainlay {
+            width: 100vw;
+            height: 100vh;
+            background-image: linear-gradient(rgba(255, 255, 255, 0.09) 74%, rgba(0, 156, 238, 0.3));
+            position: relative;
+        }
+
+        .text-a {
+            font-size: 1.5rem;
+            font-weight: 395;
+            margin-bottom: 22px;
+            text-align: center;
+        }
+
+        .text-b {
+            font-size: 1.2rem;
+            font-weight: 350;
+            margin-bottom: 19px;
+            text-align: left;
+        }
+
+        .views {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        .button {
+            color: rgb(255, 255, 255);
+            background: rgb(15, 136, 235);
+            border-radius: 999999px;
+            font-size: 18px;
+            font-weight: 700;
+            width: 240px;
+            height: 42px;
+            border: none;
+            cursor: pointer;
+            margin-left: -120px;
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            z-index: 1;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root">
+        <div class="mainlay">
+            <div class="views">
+
+                <div class="text-a">
+                    <div>加入我们</div>
+                </div>
+
+                <div class="text-b">
+                    <div>如果你会做图、或者懂一点开发，欢迎加入我们一起为爱发电呀~  <br>  <br>任何能帮到我们的都可以联系，点个关注也是帮助，联系方式如下：<br><br></div>
+                </div>
+
+
+                <div class="button" onclick="lsja()">网易云</div>
+                <div class="button" onclick="lsjb()">公众号</div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        function download(downurl, name) {
+            const a = document.createElement('a');
+            a.setAttribute('href', downurl);
+            a.click();
+        }
+
+        function lsja() {
+            window.location.href = "https://music.163.com/#/user/home?id=1950895176"
+        }
+
+        function lsjb() {
+            window.location.href = "./sm/wx-gzh.html"
+        }
+
+    </script>
+
+</body>
+
+</html>
