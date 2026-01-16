@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
-
-
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="Cache-Control" content="no-transform">
@@ -17,7 +15,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./fl/dm/lsj.css">
 </head>
-
 
 
 <body>
@@ -36,32 +33,30 @@
         <a href="./fl/jr.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">加入</a>
     </div>
 
-
-
     <!-- 【页面内容】 -->
-<div class="views">
-    <table align="center">
-        <div>
-            <td>
-                <div style=" border-radius:20%; box-shadow: 1px 1px 3px #EDEDED; background-color: white; width: 90px; height: 90px; text-align: center; line-height: 88px;">
-                    <img src="./fl/dm/img/lsj-logo.svg" class="rotating-svg">
+    <div class="container">
+        <!-- 【流星】 -->
+        <div class="stars" id="stars"></div>
+        <!-- 【下载 -->
+        <table align="center">
+            <div>
+                <td>
+                    <div style=" border-radius:20%; box-shadow: 1px 1px 3px #EDEDED; background-color: white; width: 90px; height: 90px; text-align: center; line-height: 88px;">
+                        <img src="./fl/dm/img/lsj-logo.svg" class="rotating-svg">
+                </td>
+            </div>
+            <td align="left">
+                <p style="font-size:26px; font-weight:bold; line-height:50%; margin-left:10px; margin-top:40px">留声机</p>
+                <div class="button" style="margin-top:-10px; margin-left:10px; " onclick="xzrj()">下载</div>
+                <br>
             </td>
+        </table>
+        <!-- 下载】 -->
+        <div class="main-text" align="center" style="width: 150%;">
+            <div class="line" style="font-size:14px; margin-top:-10px;">留住消失的声音 让热爱音乐的人相遇</div>
         </div>
-        <td align="left">
-            <p style="font-size:26px; font-weight:bold; line-height:50%; margin-left:10px; margin-top:40px">留声机</p>
-            <div class="button" style="margin-top:-10px; margin-left:10px; "onclick="xzrj()">下载</div>
-            <br>
-        </td>
-    </table>
-    <div align="center" style="width: 150%;">
-        <p style="font-size:14px; margin-top:-10px;">留住消失的声音 让热爱音乐的人相遇</p>
     </div>
-</div>
     <!-- 【页面内容】 -->
-
-
-
-
 
     <script>
         //【按钮-下载软件】
@@ -77,22 +72,49 @@
                 x.className = x.className.replace(" w3-show", "");
             }
         }
-        //【音乐星球】
-      function loadJs(path,callback){var header=document.getElementsByTagName("head")[0];var script=document.createElement('script');script.setAttribute('src',path);header.appendChild(script);if(!/*@cc_on!@*/false){script.onload=function(){callback();}}else{script.onreadystatechange=function(){if(script.readystate=="loaded" ||script.readState=='complate'){callback();}}}}
-      loadJs("https://yyyp.oss-cn-beijing.aliyuncs.com/CDN/Plugins/APlayer/JsHD-APlayer.js",function(){APlayer("artist","netease","51156656","0")});
-        //【艺术油漆】
-      var hm = document.createElement("script");
-      hm.src = "https://yyyp.oss-cn-beijing.aliyuncs.com/CDN/BG/PaintStyleBg/PaintStyleBg.min.js";
-      var s = document.getElementsByTagName("title")[0];
-      s.parentNode.insertBefore(hm, s);
+        //【背景音乐】
+              function loadJs(path,callback){var header=document.getElementsByTagName("head")[0];var script=document.createElement('script');script.setAttribute('src',path);header.appendChild(script);if(!/*@cc_on!@*/false){script.onload=function(){callback();}}else{script.onreadystatechange=function(){if(script.readystate=="loaded" ||script.readState=='complate'){callback();}}}}
+              loadJs("https://yyyp.oss-cn-beijing.aliyuncs.com/CDN/Plugins/APlayer/JsHD-APlayer.js",function(){APlayer("artist","netease","51156656","0")});
         //【百度统计】
-      var _hmt = _hmt || []; (function() {
+              var _hmt = _hmt || []; (function() {
         var hm = document.createElement("script");
         hm.src = "https://hm.baidu.com/hm.js?b48402e9cb2bbc1bfb9ea3b52733bb47";
         var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hm, s);
-      })();
+              })();
+        //【背景特效】
+        function createStars() {
+            const stars = document.getElementById('stars');
+            const count = 200;
+            for (let i = 0; i < count; i++) {
+                createStar(stars);
+            }
+        }
+        //【背景特效】
+        function createStar(container) {
+            const star = document.createElement('div');
+            star.className = 'star';
+            resetStar(star);
+            container.appendChild(star);
+            star.addEventListener('animationiteration', () => {
+                if (Math.random() < 0.5) {
+                    resetStar(star);
+                }
+            });
+        }
+        //【背景特效】
+        function resetStar(star) {
+            star.style.left = `${Math.random() * 100}%`;
+            star.style.top = `${Math.random() * 100}%`;
+            star.style.width = `${Math.random() * 2 + 0.5}px`;
+            star.style.height = star.style.width;
+            star.style.animationDelay = `${Math.random() * 5}s`;
+            star.style.animationDuration = `${Math.random() * 3 + 2}s, ${Math.random() * 30 + 15}s`;
+            star.style.opacity = Math.random() * 0.7 + 0.3;
+        }
+        createStars();
     </script>
 
 </body>
+
 </html>
